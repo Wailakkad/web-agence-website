@@ -1,0 +1,6 @@
+{
+  "name": "NextCraft",
+  "description": "A premium agency portfolio and template seller showcase built with React, Tailwind CSS, Framer Motion, and GSAP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
