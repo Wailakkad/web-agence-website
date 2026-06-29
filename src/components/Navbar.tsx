@@ -52,24 +52,15 @@ export default function Navbar() {
           
           {/* Logo Section */}
           <a href="#" className="flex items-center gap-2 group cursor-pointer" id="logo_homelink">
-            <div className="w-9 h-9 rounded-xl bg-[#0a0a0a] flex items-center justify-center transition-transform duration-300 group-hover:rotate-12 select-none shadow-[w-2px_2px_0px_coral]">
-              {/* Geometric SVG Icon */}
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="text-white"
-              >
-                <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-              </svg>
+            <div className="w-9 h-9 rounded-xl overflow-hidden flex items-center justify-center select-none shadow-sm">
+              <img
+                src="/FrameLab-logo.jpeg"
+                alt="FrameLab"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="font-sans font-black text-xl tracking-tight text-gray-950">
-              NextCraft<span className="text-violet-600">.</span>
+              FrameLab<span className="text-violet-600">.</span>
             </span>
           </a>
 

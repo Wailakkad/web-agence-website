@@ -79,7 +79,7 @@ export default function AboutPage() {
                 transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
                 className="text-gray-600 text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-2xl text-balance"
               >
-                NextCraft is a boutique agency focused on elevating scaling startups. We combine award-winning visual layouts with high-performance React engineering to turn passive visitors into loyal brand advocates.
+                FrameLab is a boutique agency focused on elevating scaling startups. We combine award-winning visual layouts with high-performance React engineering to turn passive visitors into loyal brand advocates.
               </motion.p>
               
               <motion.div 
@@ -117,7 +117,7 @@ export default function AboutPage() {
                 >
                   <img 
                     src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137593/about_image.png"
-                    alt="NextCraft Studio Creative Session"
+                    alt="FrameLab Studio Creative Session"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 ease-out"
                   />
@@ -194,7 +194,7 @@ export default function AboutPage() {
               
               <div className="space-y-4 text-gray-600 text-sm sm:text-base leading-relaxed font-normal">
                 <p>
-                  NextCraft was founded in 2023 with a clear, singular vision: <strong>digital products should never sacrifice performance for beauty</strong>. We watched scaling brands settle for generic, bloated landing templates that bloated codebases and damaged page-load conversions. 
+                  FrameLab was founded in 2023 with a clear, singular vision: <strong>digital products should never sacrifice performance for beauty</strong>. We watched scaling brands settle for generic, bloated landing templates that bloated codebases and damaged page-load conversions. 
                 </p>
                 <p>
                   We built our boutique studio to dismantle that compromise. We combine elegant, editorial visual hierarchies with blazing-fast React and Next.js engineering.
@@ -233,7 +233,7 @@ export default function AboutPage() {
                 <div className="relative z-10 flex flex-col gap-8 h-full justify-between">
                   <div>
                     <span className="text-[10px] font-mono text-violet-400 uppercase tracking-widest bg-violet-500/10 px-2.5 py-1 rounded-full border border-violet-500/20 font-bold">
-                      NextCraft Philosophy
+                      FrameLab Philosophy
                     </span>
                     <h3 className="text-2xl sm:text-3xl font-sans font-black tracking-tight mt-4 leading-tight">
                       "If the codebase is bloated, the design fails. True aesthetic is seamless speed."
@@ -343,7 +343,7 @@ export default function AboutPage() {
                 Designed to Dominate the Digital Space.
               </h2>
               <p className="text-gray-500 text-sm sm:text-base leading-relaxed mb-6">
-                Most agencies build for aesthetics alone. NextCraft designs for measurable business outcomes — speed, search indexing, and customer conversion.
+                Most agencies build for aesthetics alone. FrameLab designs for measurable business outcomes — speed, search indexing, and customer conversion.
               </p>
               
               <div className="flex flex-col gap-4">
@@ -546,7 +546,7 @@ export default function AboutPage() {
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border border-gray-100 bg-[#111]">
                   <img 
                     src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg" 
-                    alt="Ouail - Founder of NextCraft"
+                    alt="Ouail - Founder of FrameLab"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover grayscale-[10%]"
                   />
@@ -572,7 +572,7 @@ export default function AboutPage() {
               </h2>
               
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                Ouail is the principal founder and lead engineering mind behind NextCraft. Believing in a rare standard of digital design, he merges frontend pixel excellence with robust architecture. Under his guidelines, NextCraft has developed from a targeted consulting practice into an elite development studio trusted by businesses globally.
+                Ouail is the principal founder and lead engineering mind behind FrameLab. Believing in a rare standard of digital design, he merges frontend pixel excellence with robust architecture. Under his guidelines, FrameLab has developed from a targeted consulting practice into an elite development studio trusted by businesses globally.
               </p>
 
               <div className="h-[1px] bg-gray-100 my-2" />
@@ -705,7 +705,7 @@ export default function AboutPage() {
           </h2>
           
           <p className="text-gray-400 text-sm sm:text-base leading-relaxed max-w-xl">
-            Join elite founders and scaling brands working with NextCraft. Align with our principal team and ship a high-speed web application that transforms conversions.
+            Join elite founders and scaling brands working with FrameLab. Align with our principal team and ship a high-speed web application that transforms conversions.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center items-center mt-4">

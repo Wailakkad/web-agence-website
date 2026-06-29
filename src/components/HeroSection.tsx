@@ -142,7 +142,7 @@ export default function HeroSection() {
               transition={{ delay: 0.38, duration: 0.8, ease: "easeOut" }}
               className="text-gray-500 text-base md:text-lg leading-relaxed max-w-lg mt-6 select-text font-sans"
             >
-              At <span className="text-[#0a0a0a] font-semibold">NextCraft</span>, we design & develop high-performance React/Next.js websites and sell premium templates that help fast-growing brands launch faster, convert better & scale smarter.
+              At <span className="text-[#0a0a0a] font-semibold">FrameLab</span>, we design & develop high-performance React/Next.js websites and sell premium templates that help fast-growing brands launch faster, convert better & scale smarter.
             </motion.p>
 
             {/* Below Headline Grid: CTA and Founder Social Proof */}

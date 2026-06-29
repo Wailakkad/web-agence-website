@@ -153,7 +153,7 @@ export default function TestimonialsSection() {
         </h2>
 
         <p className="testimonials-subtitle text-gray-500 text-sm md:text-base text-center leading-relaxed mb-14 max-w-sm mx-auto">
-          Hear firsthand what founders and developers say about working with NextCraft
+          Hear firsthand what founders and developers say about working with FrameLab
         </p>
 
         {/* Carousel grid viewport with custom hover listeners to pause auto-advancing */}

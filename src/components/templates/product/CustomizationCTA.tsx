@@ -155,7 +155,7 @@ export default function CustomizationCTA({ template }: CustomizationCTAProps) {
           </h2>
           
           <p className="text-gray-400 text-xs md:text-sm leading-relaxed mb-8 max-w-md font-medium">
-            NextCraft acts as a complete design and Next.js engineering force. We can customize this boilerplate to match your branding guidelines, feed your content parameters, write secure dynamic endpoints, and optimize metrics for instant deployment.
+            FrameLab acts as a complete design and Next.js engineering force. We can customize this boilerplate to match your branding guidelines, feed your content parameters, write secure dynamic endpoints, and optimize metrics for instant deployment.
           </p>
           
           {/* Calendar booking micro widget */}
@@ -179,10 +179,10 @@ export default function CustomizationCTA({ template }: CustomizationCTAProps) {
               {/* Creator names info summary */}
               <div>
                 <p className="text-gray-500 text-[10px] font-mono tracking-wider font-extrabold uppercase">
-                  NextCraft Consultation
+                  FrameLab Consultation
                 </p>
                 <p className="text-white text-xs font-bold leading-normal">
-                  Connect with NextCraft Builders
+                  Connect with FrameLab Builders
                 </p>
               </div>
 

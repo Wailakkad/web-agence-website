@@ -35,7 +35,7 @@ export interface FooterData {
 
 export const footerData: FooterData = {
   brand: {
-    name: "NextCraft.",
+    name: "FrameLab.",
     description: "We build high-performance React & Next.js websites, sell premium templates, and help fast-growing brands launch faster, convert better, and scale smarter.",
     email: "akkadouail8@gmail.com",
     partnerBadge: "Next.js Expert Partner",
@@ -88,7 +88,7 @@ export const footerData: FooterData = {
     { label: "Terms of Service", href: "/terms" },
     { label: "Cancellation & Refund Policy", href: "/refund" },
   ],
-  copyright: "© 2026 NextCraft. All Rights Reserved.",
+  copyright: "© 2026 FrameLab. All Rights Reserved.",
   stats: {
     rating: "4.9",
     ratingPlatforms: "Clutch, Trustpilot",

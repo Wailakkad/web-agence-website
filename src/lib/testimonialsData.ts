@@ -15,8 +15,8 @@ export interface Testimonial {
 export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     id: 1,
-    quote: "Timely delivery and exceptional quality. NextCraft built our SaaS dashboard in React and it performs flawlessly. They understood our vision immediately and execut...",
-    fullQuote: "Timely delivery and exceptional quality. NextCraft built our SaaS dashboard in React and it performs flawlessly. They understood our vision immediately and executed with precision. Will definitely work with them again.",
+    quote: "Timely delivery and exceptional quality. FrameLab built our SaaS dashboard in React and it performs flawlessly. They understood our vision immediately and execut...",
+    fullQuote: "Timely delivery and exceptional quality. FrameLab built our SaaS dashboard in React and it performs flawlessly. They understood our vision immediately and executed with precision. Will definitely work with them again.",
     name: "Alex Morrison",
     title: "CEO",
     company: "TechLaunch",
@@ -28,8 +28,8 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   },
   {
     id: 2,
-    quote: "NextCraft and their team have been outstanding to work with. They delivered a pixel-perfect Next.js website that exceeded expectations. Their React expertise and attention to detail in...",
-    fullQuote: "NextCraft and their team have been outstanding to work with. They delivered a pixel-perfect Next.js website that exceeded expectations. Their React expertise and attention to detail is unmatched.",
+    quote: "FrameLab and their team have been outstanding to work with. They delivered a pixel-perfect Next.js website that exceeded expectations. Their React expertise and attention to detail in...",
+    fullQuote: "FrameLab and their team have been outstanding to work with. They delivered a pixel-perfect Next.js website that exceeded expectations. Their React expertise and attention to detail is unmatched.",
     name: "Luca Romano",
     title: "Founder",
     company: "DigitalStudio",
@@ -54,8 +54,8 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   },
   {
     id: 4,
-    quote: "We purchased a Next.js template from NextCraft and had it customized to our brand. The process was seamless, fast, and the result was stunning. Our conversion rate jumped 40% after...",
-    fullQuote: "We purchased a Next.js template from NextCraft and had it customized to our brand. The process was seamless, fast, and the result was stunning. Our conversion rate jumped 40% after launch.",
+    quote: "We purchased a Next.js template from FrameLab and had it customized to our brand. The process was seamless, fast, and the result was stunning. Our conversion rate jumped 40% after...",
+    fullQuote: "We purchased a Next.js template from FrameLab and had it customized to our brand. The process was seamless, fast, and the result was stunning. Our conversion rate jumped 40% after launch.",
     name: "James Park",
     title: "Marketing Director",
     company: "GrowthHQ",
@@ -80,8 +80,8 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   },
   {
     id: 6,
-    quote: "Best investment we made for our web presence. NextCraft built our entire website in Next.js from scratch — blazing fast, SEO optimized, and looks absolutely premium...",
-    fullQuote: "Best investment we made for our web presence. NextCraft built our entire website in Next.js from scratch — blazing fast, SEO optimized, and looks absolutely premium. Our organic traffic grew 3x.",
+    quote: "Best investment we made for our web presence. FrameLab built our entire website in Next.js from scratch — blazing fast, SEO optimized, and looks absolutely premium...",
+    fullQuote: "Best investment we made for our web presence. FrameLab built our entire website in Next.js from scratch — blazing fast, SEO optimized, and looks absolutely premium. Our organic traffic grew 3x.",
     name: "Omar Hassan",
     title: "E-commerce Owner",
     company: "StoreKit",
@@ -93,8 +93,8 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   },
   {
     id: 7,
-    quote: "Working with NextCraft was a game-changer. They took our outdated site and rebuilt it in React with animations that wow every visitor. Professional, communicative, and talented...",
-    fullQuote: "Working with NextCraft was a game-changer. They took our outdated site and rebuilt it in React with animations that wow every visitor. Professional, communicative, and talented team.",
+    quote: "Working with FrameLab was a game-changer. They took our outdated site and rebuilt it in React with animations that wow every visitor. Professional, communicative, and talented...",
+    fullQuote: "Working with FrameLab was a game-changer. They took our outdated site and rebuilt it in React with animations that wow every visitor. Professional, communicative, and talented team.",
     name: "Priya Sharma",
     title: "Brand Manager",
     company: "PixelStudio",

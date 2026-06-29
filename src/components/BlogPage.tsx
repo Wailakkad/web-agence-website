@@ -167,12 +167,12 @@ export default function BlogPage({ initialSlug }: BlogPageProps) {
 
       return () => {
         // Reset document metadata on unmount / change
-        document.title = "NextCraft | Elite Web Design & Next.js Agency";
+        document.title = "FrameLab | Elite Web Design & Next.js Agency";
         const schemaToRemove = document.getElementById(scriptId);
         if (schemaToRemove) schemaToRemove.remove();
       };
     } else {
-      document.title = "NextCraft Insights | Web Design, SEO & Conversion Optimization Blog";
+      document.title = "FrameLab Insights | Web Design, SEO & Conversion Optimization Blog";
     }
   }, [selectedSlug, activeArticle]);
 
@@ -522,7 +522,7 @@ export default function BlogPage({ initialSlug }: BlogPageProps) {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-violet-50 text-violet-700 text-xs font-bold tracking-wider uppercase rounded-full w-fit mb-4">
               <BookOpen className="w-3.5 h-3.5" />
-              NextCraft Insights
+              FrameLab Insights
             </span>
             
             <h1 className="text-4xl sm:text-5xl font-sans font-black tracking-tight text-gray-950 mt-2 mb-4 leading-none">
@@ -706,7 +706,7 @@ export default function BlogPage({ initialSlug }: BlogPageProps) {
               </h3>
               
               <p className="text-gray-400 text-xs sm:text-sm leading-relaxed max-w-xl">
-                Join startups reading NextCraft insights to optimize core Web vitals, design landing components, and boost search rankings. No spam, ever.
+                Join startups reading FrameLab insights to optimize core Web vitals, design landing components, and boost search rankings. No spam, ever.
               </p>
 
               {isNewsletterSubscribed ? (

@@ -497,7 +497,7 @@ Thank you.
                         <input
                           {...register("companyName")}
                           type="text"
-                          placeholder="e.g. NextCraft Inc."
+                          placeholder="e.g. FrameLab Inc."
                           className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 bg-white text-sm text-[#0a0a0a] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-violet-500/10 focus:border-violet-600 transition-all"
                         />
                       </div>
@@ -565,10 +565,10 @@ Thank you.
                           }`}
                         >
                           <option value="" disabled>Select budget range...</option>
-                          <option value="1k-3k">$1,500 — $3,500 (Standard)</option>
-                          <option value="3k-5k">$3,500 — $5,000 (Growth)</option>
-                          <option value="5k-10k">$5,000 — $10,000 (Elite Bespoke)</option>
-                          <option value="10k-plus">$10,000+ (Enterprise / SaaS)</option>
+                          <option value="1k-2k">$1,000 — $2,000 (Essential)</option>
+                          <option value="2k-4k">$2,000 — $4,000 (Business)</option>
+                          <option value="4k-7k">$4,000 — $7,000 (Premium)</option>
+                          <option value="7k-plus">$7,000+ (Custom / Multi-Project)</option>
                         </select>
                         <div className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
                           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -682,7 +682,7 @@ Thank you.
           
           <div className="text-center max-w-3xl mx-auto mb-16 flex flex-col gap-3">
             <span className="text-violet-600 font-bold font-mono text-[10px] uppercase tracking-widest bg-violet-50 px-3 py-1.5 rounded-full w-fit mx-auto border border-violet-100">
-              The NextCraft Advantage
+              The FrameLab Advantage
             </span>
             <h2 className="text-gray-950 font-sans font-black text-3xl sm:text-4xl md:text-5xl tracking-tight leading-none">
               Engineering Value. Eliminating Risk.

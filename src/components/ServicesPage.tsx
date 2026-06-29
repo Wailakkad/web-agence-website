@@ -188,7 +188,7 @@ export default function ServicesPage() {
   const servicesFaqs = [
     {
       id: 1,
-      q: "How does project pricing work at NextCraft?",
+      q: "How does project pricing work at FrameLab?",
       a: "We believe in total financial transparency. We work on flat, project-based pricing modeled on the complexity of your custom build. Standard template customization runs between $1,500 and $3,500, while bespoke full-stack React & Next.js applications range from $5,000 to $15,000 depending on integrations. You will receive a locked, guaranteed proposal before any work begins — with no hidden hourly surcharges."
     },
     {
@@ -986,7 +986,7 @@ export default function ServicesPage() {
               Core Pillars
             </span>
             <h2 className="text-gray-950 font-sans font-black text-3xl sm:text-4xl md:text-5xl tracking-tight">
-              Why Leaders Select NextCraft
+              Why Leaders Select FrameLab
             </h2>
             <p className="text-gray-500 text-sm sm:text-base">
               We operate at the intersection of extreme speed and beautiful aesthetics, stripping away development fluff to double startup growth.
@@ -1252,7 +1252,7 @@ export default function ServicesPage() {
             </h2>
 
             <p className="text-slate-400 text-sm sm:text-base max-w-xl leading-relaxed">
-              Partner with NextCraft to secure perfect Core Web Vitals scores, custom Figma design wireframes, and high-converting Next.js engines.
+              Partner with FrameLab to secure perfect Core Web Vitals scores, custom Figma design wireframes, and high-converting Next.js engines.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mt-4 relative z-10">

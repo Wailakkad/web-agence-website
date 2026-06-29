@@ -108,7 +108,7 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="font-sans font-black text-xl text-[#0a0a0a] tracking-tight">
-                NextCraft<span className="text-[#7c3aed]">.</span>
+                FrameLab<span className="text-[#7c3aed]">.</span>
               </span>
             </a>
 
@@ -164,7 +164,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 py-8">
           {/* Left: Dynamic dynamically calculated copyright text */}
           <p className="text-gray-400 text-xs font-medium">
-            &copy; {new Date().getFullYear()} NextCraft. All Rights Reserved.
+            &copy; {new Date().getFullYear()} FrameLab. All Rights Reserved.
           </p>
 
           {/* Right: Legal links pipeline */}

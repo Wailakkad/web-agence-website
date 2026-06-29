@@ -107,7 +107,7 @@ export default function ServiceCard({
               />
               {/* Subtle dark gradient overlay */}
               <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/50 to-transparent pointer-events-none text-white p-3 flex items-end">
-                <span className="text-[10px] uppercase font-mono tracking-wider opacity-80">NextCraft Studio</span>
+                <span className="text-[10px] uppercase font-mono tracking-wider opacity-80">FrameLab Studio</span>
               </div>
             </div>
           </div>

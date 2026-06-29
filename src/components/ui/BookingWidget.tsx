@@ -34,7 +34,7 @@ export function BookingWidget() {
           Book a call with
         </p>
         <p className="text-white text-xs font-black font-sans">
-          NextCraft founders
+          FrameLab founders
         </p>
       </div>
       

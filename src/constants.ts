@@ -24,6 +24,7 @@ export const NAV_ITEMS: NavItem[] = [
       { label: "E-Commerce Themes", href: "#templates", description: "Blazing-fast digital storefronts" },
     ],
   },
+  { label: "Pricing", href: "#pricing" },
   { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" },
 ];

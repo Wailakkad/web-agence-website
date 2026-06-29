@@ -169,6 +169,72 @@ export const templates: Template[] = [
       { gradient: "from-zinc-950 via-cyan-950/20 to-black", pageTitle: "Mobile View Layout", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782387187/Use_the_exact_uploaded_mobile_202606241740_1.jpg" }
     ],
     techStack: ["React 19", "Vite 6", "Tailwind v4", "TypeScript 5.8", "Framer Motion", "Lucide React"]
+  },
+  {
+    id: "nivora-flow",
+    name: "NIVORA",
+    category: "Home Service",
+    style: ["Warm", "Modern", "Clean"],
+    price: 59,
+    isFree: false,
+    gradient: "from-amber-400 via-orange-500 to-stone-700",
+    accentColor: "#D48C4F",
+    description: "A premium, conversion-focused website template for home builders, construction companies, and renovation contractors.",
+    longDescription: "NIVORA is a premium, conversion-focused website template for home builders, construction companies, and renovation contractors. Built with React 19 + Vite 6, Tailwind CSS v4, and Framer Motion, it features 10 fully coded pages, a custom project gallery with filtering, interactive service areas, a client testimonial showcase, and a beautiful before/after project slider that turns visitors into qualified leads.",
+    tags: ["React 19", "Vite 6", "Tailwind CSS v4", "TypeScript"],
+    previewUrl: "https://nivora-homebuilder.vercel.app/",
+    buyUrl: "https://payhip.com/b/nivora",
+    image: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782650810/nivora_cover_image.jpg",
+    features: [
+      "React 19 + Vite 6 Framework",
+      "Tailwind CSS v4 Utility Styling",
+      "Custom SPA Router (Zero Dependencies)",
+      "Buttery-smooth Framer Motion Animations",
+      "10 Comprehensive Pages Included",
+      "Interactive Before/After Project Slider",
+      "Service Area Map Integration Ready",
+      "Client Testimonial Carousel",
+      "Project Portfolio Grid with Category Filters",
+      "100% Production Ready & Deployable"
+    ],
+    includedPages: [
+      "Homepage (/) - Complete with hero & stats",
+      "About (/about) - Company story & team",
+      "Services Hub (/services) - All building services",
+      "Service Detail (/services/[slug]) - Individual service pages",
+      "Projects Gallery (/projects) - Portfolio with filters",
+      "Project Detail (/projects/[slug]) - Single project showcase",
+      "Testimonials (/testimonials) - Client reviews wall",
+      "Blog Listing (/blog) - Construction insights",
+      "Blog Detail (/blog/[slug]) - Full article view",
+      "Contact (/contact) - Quote request form & map"
+    ],
+    supportLinks: [
+      { label: "1. Brand Name & Logo Customization Guide", href: "#" },
+      { label: "2. Adding Project Images & Before/After Slider", href: "#" },
+      { label: "3. Colors & Theme Configuration in CSS", href: "#" },
+      { label: "4. Contact Form & Map Integration Guide", href: "#" }
+    ],
+    sections: [
+      {
+        title: "NIVORA Design System:",
+        content: "Features a warm, premium visual style utilizing an Amber Accent (#D48C4F), neutral stone tones, deep charcoal sections, clean white bases, rounded-2xl border radius, and pillar-style action buttons with subtle shadow elevations."
+      },
+      {
+        title: "Shared Components & Modules:",
+        content: "Includes reusable components such as CtaButton, ProjectCard, TestimonialCarousel, ServiceAreaMap, BeforeAfterSlider, StatCounter, TeamMemberCard, and a rich library of construction-themed SVG icons and progress indicators."
+      },
+      {
+        title: "Fully Optimized Static Production Builds:",
+        content: "Ready to deploy in seconds. Run npm run build and deploy the compiled high-performance dist/ directory straight to Vercel, Netlify, Cloudflare Pages, AWS S3, or any preferred hosting service."
+      }
+    ],
+    mockupImages: [
+      { gradient: "from-amber-50 to-stone-200", pageTitle: "Project Gallery Grid", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782650094/A_professional_product_mockup_of_202606261746.jpg" },
+      { gradient: "from-stone-700 via-amber-800 to-stone-900", pageTitle: "Hero Section with Stats", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782650095/A_professional_product_mockup_of_202606261747.jpg" },
+      { gradient: "from-stone-100 to-amber-50", pageTitle: "Services & Testimonials", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782650095/A_professional_product_mockup_featuring_202606261747.jpg" }
+    ],
+    techStack: ["React 19", "Vite 6", "Tailwind v4", "TypeScript", "Framer Motion", "Lucide React"]
   }
 ];
 

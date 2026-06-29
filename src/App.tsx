@@ -16,9 +16,11 @@ import AboutPage from "./components/AboutPage";
 import BlogPage from "./components/BlogPage";
 import ServicesPage from "./components/ServicesPage";
 import ContactPage from "./components/ContactPage";
+import PricingPage from "./components/PricingPage";
+import PricingSection from "./components/PricingSection";
 
 export default function App() {
-  const [currentView, setCurrentView] = useState<"home" | "templates" | "about" | "blog" | "services" | "contact">("home");
+  const [currentView, setCurrentView] = useState<"home" | "templates" | "about" | "blog" | "services" | "contact" | "pricing">("home");
   const [selectedArticleSlug, setSelectedArticleSlug] = useState<string | null>(null);
 
   useEffect(() => {
@@ -39,6 +41,10 @@ export default function App() {
         window.scrollTo({ top: 0, behavior: "smooth" });
       } else if (hash === "#contact") {
         setCurrentView("contact");
+        setSelectedArticleSlug(null);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else if (hash === "#pricing") {
+        setCurrentView("pricing");
         setSelectedArticleSlug(null);
         window.scrollTo({ top: 0, behavior: "smooth" });
       } else if (hash === "#blog") {
@@ -75,6 +81,8 @@ export default function App() {
           <ContactPage />
         ) : currentView === "blog" ? (
           <BlogPage initialSlug={selectedArticleSlug} />
+        ) : currentView === "pricing" ? (
+          <PricingPage />
         ) : (
           <>
             {/* Full structural stack of the requested premium template and agency services landing screen */}
@@ -86,6 +94,7 @@ export default function App() {
             <WhyUsSection />
             <TestimonialsSection />
             <TemplatesAndFaqSection />
+            <PricingSection />
             <ContactSection />
             <FinalCtaSection />
           </>

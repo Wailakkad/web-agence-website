@@ -36,10 +36,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391366/article_1.jpg",
-    seoTitle: "Why Every Business Needs a Professional Website in 2026 | NextCraft",
+    seoTitle: "Why Every Business Needs a Professional Website in 2026 | FrameLab",
     seoDescription: "Is your social page enough? No. Learn how custom-designed high-performance websites build compound search equity and convert leads in 2026.",
     canonicalUrl: "https://nextcraft.com/blog/why-every-business-needs-professional-website-2026",
     tags: ["Business Growth", "Web Strategy", "Conversions", "Next.js"],
@@ -108,10 +108,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391359/article_2.jpg",
-    seoTitle: "Web Design vs DIY Website Builders: Hidden Costs | NextCraft",
+    seoTitle: "Web Design vs DIY Website Builders: Hidden Costs | FrameLab",
     seoDescription: "Exposing the technical and financial limitations of DIY drag-and-drop builders. Learn why custom-coded React websites produce massive return on investment.",
     canonicalUrl: "https://nextcraft.com/blog/web-design-vs-diy-website-builders",
     tags: ["Custom Code", "DIY Builders", "UX Design", "ROI"],
@@ -174,10 +174,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391313/article_3.jpg",
-    seoTitle: "Business Website Pricing & Costs in 2026 | NextCraft",
+    seoTitle: "Business Website Pricing & Costs in 2026 | FrameLab",
     seoDescription: "An honest breakdown of modern web design costs. Learn the difference between cheap templates and premium custom React/Next.js systems.",
     canonicalUrl: "https://nextcraft.com/blog/how-much-does-business-website-cost",
     tags: ["Web Costs", "Budgeting", "Agency Pricing", "ROI"],
@@ -240,10 +240,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391332/article_4.jpg",
-    seoTitle: "The Ultimate Website Redesign Checklist (2026) | NextCraft",
+    seoTitle: "The Ultimate Website Redesign Checklist (2026) | FrameLab",
     seoDescription: "Step-by-step startup guide to redesigning your brand asset safely. Protect search indexing, improve conversions, and transition to high-speed Next.js.",
     canonicalUrl: "https://nextcraft.com/blog/website-redesign-checklist",
     tags: ["Redesign", "SEO Migration", "Next.js", "User Experience"],
@@ -301,10 +301,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391322/article_5.jpg",
-    seoTitle: "How Website Speed Multiplies Conversions | NextCraft",
+    seoTitle: "How Website Speed Multiplies Conversions | FrameLab",
     seoDescription: "Exposing the direct impact of load speeds on business conversion rates. Learn why slow platforms drop lead volumes and how to fix LCP.",
     canonicalUrl: "https://nextcraft.com/blog/how-fast-websites-increase-conversions",
     tags: ["Speed Optimization", "Conversion Rate", "LCP", "Next.js"],
@@ -362,10 +362,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391322/article_6.jpg",
-    seoTitle: "10 SEO Mistakes Dropping Your Search Rankings | NextCraft",
+    seoTitle: "10 SEO Mistakes Dropping Your Search Rankings | FrameLab",
     seoDescription: "Don't let technical errors kill your traffic. Identify site speed bugs, keyword cannibalization, and broken sitemaps with our checklist.",
     canonicalUrl: "https://nextcraft.com/blog/seo-mistakes-killing-rankings",
     tags: ["SEO Audit", "Search Marketing", "Technical SEO", "Indexation"],
@@ -423,10 +423,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391308/article_7.jpg",
-    seoTitle: "Local SEO Guide: Dominate Local Search | NextCraft",
+    seoTitle: "Local SEO Guide: Dominate Local Search | FrameLab",
     seoDescription: "Step-by-step Local SEO strategy. Optimize Google Business Profile, secure positive ratings, and build localized content structures that convert.",
     canonicalUrl: "https://nextcraft.com/blog/local-seo-for-small-businesses",
     tags: ["Local SEO", "Google Business", "Small Business", "Lead Gen"],
@@ -484,10 +484,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391219/article_8.jpg",
-    seoTitle: "Top Web Design Trends (2026 Edition) | NextCraft",
+    seoTitle: "Top Web Design Trends (2026 Edition) | FrameLab",
     seoDescription: "Explore the current web design movements. Learn how bold typography, high contrast dark themes, and smooth micro-animations capture users in 2026.",
     canonicalUrl: "https://nextcraft.com/blog/best-website-design-trends-2026",
     tags: ["UI Trends", "Aesthetics", "UX Design", "Tailwind CSS"],
@@ -545,10 +545,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391175/article_9.jpg",
-    seoTitle: "Landing Page Optimization Guide (2026) | NextCraft",
+    seoTitle: "Landing Page Optimization Guide (2026) | FrameLab",
     seoDescription: "Transform paid ad traffic into customers. Learn how to design single-focus landing pages with high-converting CTA structures.",
     canonicalUrl: "https://nextcraft.com/blog/landing-page-optimization-guide",
     tags: ["Landing Pages", "Lead Generation", "CRO", "Next.js"],
@@ -606,10 +606,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391241/article_10.jpg",
-    seoTitle: "How to Convert Website Visitors Into Leads | NextCraft",
+    seoTitle: "How to Convert Website Visitors Into Leads | FrameLab",
     seoDescription: "Turn traffic into sales. Master the mechanics of lead capture, micro-commitments, and optimized web forms that grow business revenue.",
     canonicalUrl: "https://nextcraft.com/blog/how-to-turn-website-visitors-into-leads",
     tags: ["Lead Capture", "CRO Strategies", "SaaS Conversion", "Web Forms"],
@@ -667,10 +667,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391209/article_11.jpg",
-    seoTitle: "Next.js vs WordPress: Modern Stack Comparison | NextCraft",
+    seoTitle: "Next.js vs WordPress: Modern Stack Comparison | FrameLab",
     seoDescription: "Compare headless architectures and database-heavy engines. Discover why Next.js React frameworks deliver better speed, safety, and SEO rankings.",
     canonicalUrl: "https://nextcraft.com/blog/nextjs-vs-wordpress-business-websites",
     tags: ["Next.js", "WordPress", "Web Stack", "Performance"],
@@ -728,10 +728,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391132/article_12.jpg",
-    seoTitle: "Why Website Speed Matters in 2026 | NextCraft",
+    seoTitle: "Why Website Speed Matters in 2026 | FrameLab",
     seoDescription: "Discover how page speed directly impacts search index rankings, ad costs, and business conversions. Learn why clean custom code outperforms visual templates.",
     canonicalUrl: "https://nextcraft.com/blog/why-website-speed-matters",
     tags: ["Speed Optimization", "Page Speed", "CRO", "SEO Rankings"],
@@ -789,10 +789,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391092/article_13.jpg",
-    seoTitle: "Modern Digital Branding Guide for Small Businesses | NextCraft",
+    seoTitle: "Modern Digital Branding Guide for Small Businesses | FrameLab",
     seoDescription: "Build a premium digital identity. Learn how custom typography, color strategy, and clear positioning help you stand out and win high-value clients.",
     canonicalUrl: "https://nextcraft.com/blog/modern-branding-for-small-businesses",
     tags: ["Branding", "Design Strategy", "UX Design", "Business Growth"],
@@ -850,10 +850,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391121/article_14.jpg",
-    seoTitle: "The Ultimate Conversion Rate Optimization Guide | NextCraft",
+    seoTitle: "The Ultimate Conversion Rate Optimization Guide | FrameLab",
     seoDescription: "Exposing actionable CRO strategies. Learn how to audit user paths, optimize forms, and layout high-converting CTAs that grow revenue.",
     canonicalUrl: "https://nextcraft.com/blog/conversion-rate-optimization-guide",
     tags: ["CRO", "UX Design", "Lead Generation", "React"],
@@ -911,10 +911,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391019/article_15.jpg",
-    seoTitle: "The Complete Technical SEO Checklist (2026) | NextCraft",
+    seoTitle: "The Complete Technical SEO Checklist (2026) | FrameLab",
     seoDescription: "Guarantee perfect search engine indexing. Learn how to structure sitemaps, clean meta tags, inject JSON-LD schemas, and optimize Core Web Vitals.",
     canonicalUrl: "https://nextcraft.com/blog/technical-seo-checklist",
     tags: ["Technical SEO", "Sitemaps", "Next.js", "Core Web Vitals"],
@@ -972,10 +972,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391018/article_16.jpg",
-    seoTitle: "How to Choose a Web Design Partner in 2026 | NextCraft",
+    seoTitle: "How to Choose a Web Design Partner in 2026 | FrameLab",
     seoDescription: "An honest checklist for hiring a web agency. Learn how to verify performance portfolios and choose growth-focused development teams.",
     canonicalUrl: "https://nextcraft.com/blog/how-to-choose-web-design-agency",
     tags: ["Hiring Guide", "Agency Operations", "Startup Strategy", "Web Design"],
@@ -1033,10 +1033,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391000/article_17.jpg",
-    seoTitle: "Web Accessibility & WCAG Compliance Guide | NextCraft",
+    seoTitle: "Web Accessibility & WCAG Compliance Guide | FrameLab",
     seoDescription: "Protect your business and design for everyone. Master WCAG accessibility standards, key contrast ratios, and structured screen reader markup.",
     canonicalUrl: "https://nextcraft.com/blog/website-accessibility-guide",
     tags: ["Accessibility", "WCAG Compliance", "UX Design", "React Accessibility"],
@@ -1094,10 +1094,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782390974/article_18.jpg",
-    seoTitle: "Mobile-First Design Strategy (2026) | NextCraft",
+    seoTitle: "Mobile-First Design Strategy (2026) | FrameLab",
     seoDescription: "Optimizing for mobile first is essential. Learn how to design touch-friendly layouts, speed up mobile performance, and improve mobile conversions.",
     canonicalUrl: "https://nextcraft.com/blog/mobile-first-design-strategy",
     tags: ["Mobile First", "Responsive Design", "UX Architecture", "Tailwind CSS"],
@@ -1155,10 +1155,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782390965/article_19.jpg",
-    seoTitle: "The Complete Website Audit Checklist (2026) | NextCraft",
+    seoTitle: "The Complete Website Audit Checklist (2026) | FrameLab",
     seoDescription: "Learn how to run a professional audit on your site. Discover how to check performance, security, SEO, and layout issues.",
     canonicalUrl: "https://nextcraft.com/blog/business-website-audit-checklist",
     tags: ["Site Audit", "Security", "SEO Audit", "Speed Audit"],
@@ -1216,10 +1216,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       name: "Ouail",
       role: "Founder & Lead Dev",
       avatar: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782137894/ouail.jpg",
-      bio: "Ouail is the founder of NextCraft, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
+      bio: "Ouail is the founder of FrameLab, specializing in building ultra-high-speed React ecosystems and SEO engines that double startup growth."
     },
     featuredImage: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1782391024/article_20.jpg",
-    seoTitle: "The Complete Small Business Growth Guide | NextCraft",
+    seoTitle: "The Complete Small Business Growth Guide | FrameLab",
     seoDescription: "Step-by-step roadmap to scale your brand. Learn how modern web design, search marketing, and conversion optimization drive business revenue.",
     canonicalUrl: "https://nextcraft.com/blog/complete-small-business-growth-guide",
     tags: ["Business Growth", "SEO Strategy", "UX Design", "Scaling"],

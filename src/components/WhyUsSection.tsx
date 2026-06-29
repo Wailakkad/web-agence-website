@@ -166,7 +166,7 @@ export default function WhyUsSection() {
         {/* Section Header */}
         <div className="why-title opacity-100 transform translate-y-0 text-center lg:text-left">
           <h2 className="text-white font-sans font-black text-4xl md:text-5xl tracking-tight mb-16 max-w-2xl leading-none">
-            Why NextCraft? Here's why
+            Why FrameLab? Here's why
           </h2>
         </div>
 
