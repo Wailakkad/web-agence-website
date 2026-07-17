@@ -4,6 +4,7 @@ import {
   ArrowRight,
   Code2,
   Cpu,
+  Bot,
   Layers,
   Sparkles,
   Zap,
@@ -44,125 +45,125 @@ interface ServiceDetail {
 
 const SERVICES_DETAILS: ServiceDetail[] = [
   {
-    id: "nextjs-development",
-    badge: "Engineering",
-    title: "React & Next.js Development",
-    headline: "Bespoke Full-Stack Web Applications Built for Infinite Scale",
-    description: "Traditional databases and clunky content management systems slow down conversions and degrade search index scores. Our engineering division compiles bespoke React environments into static HTML/JSON at build time, deploying them to global serverless edge environments that load instantly under any user traffic spike.",
+    id: "website-building",
+    badge: "Development",
+    title: "Website Building & Rebuild",
+    headline: "New Websites & Performance Rebuilds That Drive Results",
+    description: "Whether you need a brand new website from scratch or an existing site that needs a complete performance and design overhaul, we deliver fast, responsive, SEO-optimized websites. Every build is mobile-first, accessibility-minded, and engineered to convert visitors into customers.",
     whatsIncluded: [
-      "Custom React & Next.js Architecture",
-      "Robust TypeScript implementation",
-      "API Routing & Dynamic Serverless Actions",
-      "Headless CMS Integration (Sanity / Contentful)",
-      "Fully Responsive Tailwind CSS Layouts",
-      "Optimal code-splitting & tree-shaking"
+      "New website build from scratch",
+      "Full website rebuild & performance upgrade",
+      "Responsive mobile-first design",
+      "SEO optimization & meta tags",
+      "Contact form & lead capture integration",
+      "Speed optimization — 90+ Lighthouse"
     ],
     benefits: [
-      "Sub-second Largest Contentful Paint (LCP) times",
-      "Zero server overhead or cold starts on global runs",
-      "Immunity from traditional database injection attacks",
-      "Perfect Lighthouse and Core Web Vitals pass rate"
+      "Launch a modern, fast-loading web presence",
+      "Rebuild existing sites without losing SEO equity",
+      "Sub-second page load times on all devices",
+      "Perfect Core Web Vitals scores out of the box"
     ],
     deliverables: [
-      "Production-ready Next.js Github Repository",
-      "Serverless deployment configuration",
-      "Interactive component library in Storybook",
-      "Fully integrated Headless CMS content editor dashboard"
+      "Production-ready website codebase",
+      "Responsive design across all breakpoints",
+      "SEO-optimized sitemap & metadata",
+      "Deployment & hosting configuration"
     ],
-    timeline: "3 - 5 Weeks",
-    ctaText: "Start My Custom Build"
+    timeline: "5 - 14 Days",
+    ctaText: "Start My Website"
   },
   {
-    id: "uiux-design",
-    badge: "Aesthetics",
-    title: "Premium UI/UX Design",
-    headline: "High-Fidelity Interfaces Crafted to Earn Unfiltered Trust",
-    description: "We don't buy generic visual themes. Our team researches user journey maps, constructs wireframe topologies, and creates distinctive display grids with big bold typography and custom micro-animations. The result is a layout that feels like an award-winning studio asset and naturally converts visitors into scheduled bookings.",
+    id: "ai-chatbot-rag",
+    badge: "AI & Automation",
+    title: "AI Chatbot & RAG Agent",
+    headline: "Intelligent Automation That Scales Your Business 24/7",
+    description: "Deploy AI-powered chatbots that handle customer inquiries, qualify leads, and provide instant support. Or build RAG (Retrieval-Augmented Generation) agents that pull answers from your knowledge base, documents, and data — giving your customers accurate, contextual responses at any hour.",
     whatsIncluded: [
-      "Bespoke High-Fidelity UI Design",
-      "Interactive Figma Prototypes & Wireframes",
-      "Typography pairing & layout guidelines",
-      "Custom Vector Illustrations & Graphics",
-      "Micro-interaction & Transition Storyboards",
-      "Conversion Rate Optimization (CRO) audits"
+      "Custom AI chatbot development",
+      "RAG agent with knowledge base integration",
+      "Lead qualification & capture flows",
+      "Multi-platform deployment (web, WhatsApp)",
+      "Custom training on your business data",
+      "Analytics & conversation logging"
     ],
     benefits: [
-      "Differentiate instantly from template-heavy competitors",
-      "Build long-term brand equity with customized visual systems",
-      "Provide modern touch targets (min. 44px) and fluid spacing",
-      "Significantly reduce landing page visitor bounce percentages"
+      "Automate customer support 24/7 without hiring",
+      "Qualify and capture leads automatically",
+      "Reduce response time from hours to seconds",
+      "Scale customer service without scaling headcount"
     ],
     deliverables: [
-      "Bespoke Figma UI/UX Design System",
-      "Complete Component Assets & Style Guide",
-      "Interactive user journey map files",
-      "Responsive layout wireframes for Mobile & Desktop"
+      "Deployed AI chatbot or RAG agent",
+      "Trained knowledge base integration",
+      "Admin dashboard for monitoring",
+      "Integration guide & documentation"
     ],
-    timeline: "2 - 4 Weeks",
-    ctaText: "Request Bespoke Design"
+    timeline: "5 - 14 Days",
+    ctaText: "Build My AI Agent"
   },
   {
-    id: "seo-speed-optimization",
-    badge: "Optimization",
-    title: "SEO & Core Web Vitals Speed Audit",
-    headline: "Multiply Organic Traffic with Sub-Second Latency Mechanics",
-    description: "Search engines actively penalize slow, unoptimized pages. We perform exhaustive audits of script runtimes, eliminate layout shifts, and inject structured JSON-LD schemas. We fix what holds your search authority back, securing maximum ranking momentum for your high-value commercial search keywords.",
+    id: "web-design",
+    badge: "Design",
+    title: "Web Design & Branding",
+    headline: "Pixel-Perfect Design Systems That Build Trust",
+    description: "Great design is the difference between a visitor and a customer. We craft beautiful, conversion-focused web designs paired with complete brand identity systems — logos, color palettes, typography, and brand guidelines that make your business look professional and trustworthy from day one.",
     whatsIncluded: [
-      "Lighthouse & Core Web Vitals optimization",
-      "JSON-LD Local Business & Article Schema",
-      "Bundle size minimization & Next Image optimization",
-      "Keyword gap & commercial intent mapping",
-      "Technical indexation & crawl budget analysis",
-      "Permanent 301 URL redirection mapping"
+      "Custom web design (UI/UX)",
+      "Logo design & brand identity",
+      "Color palette & typography selection",
+      "Full brand kit with guidelines",
+      "Figma design files & prototypes",
+      "Social media brand assets"
     ],
     benefits: [
-      "Guaranteed Core Web Vitals Pass rating (Green scores)",
-      "Higher search engine crawl efficiency and indexing",
-      "Drastic reductions in paid user acquisition (CPC) costs",
-      "Higher search query click-through-rates with rich snippets"
+      "Stand out with a unique, professional brand identity",
+      "Consistent visual presence across all platforms",
+      "Higher trust and credibility with polished design",
+      "Design systems that scale with your business"
     ],
     deliverables: [
-      "Interactive Speed Audit Performance Report",
-      "Custom schema markup payload files",
-      "Fully resolved speed improvements on live site",
-      "Optimized Sitemap & Robots.txt parameters"
+      "Complete Figma design files",
+      "Brand identity guide (logo, colors, fonts)",
+      "Full brand kit package",
+      "Social media template assets"
     ],
-    timeline: "1 - 2 Weeks",
-    ctaText: "Secure Speed Audit"
+    timeline: "5 - 10 Days",
+    ctaText: "Request Design"
   },
   {
-    id: "custom-template",
-    badge: "Polish",
-    title: "Template Customization & Relaunch",
-    headline: "Turn a Bought Template Into a Premium Polished Asset",
-    description: "Already purchased a visual layout or boilerplate but struggle to make it load fast and match your brand standards? We take existing Next.js codebases, refactor their core styling to fit your exact specifications, audit performance metrics, and deploy them properly in under a week.",
+    id: "social-media-templates",
+    badge: "Content",
+    title: "Social Media Marketing & Template Customization",
+    headline: "Scroll-Stopping Visuals & Polished Templates",
+    description: "Get consistent, professional social media marketing images designed to grow your brand presence. Plus, we customize any template — bought or existing — to match your brand perfectly, with fast turnaround and pro-level polish.",
     whatsIncluded: [
-      "Existing codebase audit & cleanup",
-      "Tailoring logo assets, colors, and typefaces",
-      "Component edits and responsive correction",
-      "Lead collection form setup & database webhook integrations",
-      "Speed optimization and build testing",
-      "Clean edge host deployment setup"
+      "Social media image design packs",
+      "Ad creative & promotional graphics",
+      "Template customization & brand tailoring",
+      "Content calendar graphics",
+      "Brand consistency review",
+      "Fast turnaround delivery"
     ],
     benefits: [
-      "Launch a fully verified brand asset in fractions of the time",
-      "Ensure template code has zero security flaws or broken links",
-      "Gain custom integrations without paying full bespoke dev prices",
-      "Perfect alignment with corporate visual brand guidelines"
+      "Save hours with ready-to-post professional designs",
+      "Maintain consistent brand aesthetics across platforms",
+      "Launch customized templates without starting from zero",
+      "Professional look without hiring a full-time designer"
     ],
     deliverables: [
-      "Refactored high-speed Next.js repository",
-      "Lead generation & webhook flow mappings",
-      "Pre-launch verification checklist reports",
-      "Live serverless deployed environment"
+      "Social media image pack (JPEG/PNG)",
+      "Customized template codebase",
+      "Brand style guide for social posts",
+      "Source files for future edits"
     ],
-    timeline: "5 - 9 Days",
-    ctaText: "Optimize My Template"
+    timeline: "3 - 7 Days",
+    ctaText: "Get My Visuals"
   }
 ];
 
 export default function ServicesPage() {
-  const [activeTab, setActiveTab] = useState<string>("nextjs-development");
+  const [activeTab, setActiveTab] = useState<string>("website-building");
   const [selectedCase, setSelectedCase] = useState<number>(0);
   const [faqOpen, setFaqOpen] = useState<number | null>(null);
 
@@ -170,51 +171,51 @@ export default function ServicesPage() {
 
   const caseStudies = [
     {
-      title: "Pulse SaaS Dashboard Relaunch",
-      before: { speed: "4.8s", conv: "1.2%", bounce: "54%" },
-      after: { speed: "0.4s", conv: "4.9%", bounce: "18%" },
-      metric: "+308% Leads",
-      description: "We converted Pulse's database-heavy marketing template into a headless static Next.js application, fixing mobile layout shift errors and aligning buttons with user conversion intent."
+      title: "LocalBizAI — Website Rebuild + AI Chatbot",
+      before: { speed: "5.2s", conv: "0.8%", bounce: "62%" },
+      after: { speed: "0.6s", conv: "4.2%", bounce: "22%" },
+      metric: "+425% Leads",
+      description: "We rebuilt LocalBizAI's slow legacy site into a modern, fast-loading website and deployed an AI chatbot that captures and qualifies leads 24/7 — cutting response time from hours to seconds."
     },
     {
-      title: "ScaleHQ Local Authority Campaign",
-      before: { speed: "3.2s", conv: "2.1%", bounce: "42%" },
-      after: { speed: "0.6s", conv: "5.8%", bounce: "15%" },
-      metric: "-35% Ad Cost",
-      description: "By building local location landing pages with customized JSON-LD schema markup and sub-second Largest Contentful Paint (LCP) times, ScaleHQ ranked in the Google 3-Pack for 12 local neighborhoods."
+      title: "BrightBrand Co. — Full Branding & Social",
+      before: { speed: "3.8s", conv: "1.5%", bounce: "48%" },
+      after: { speed: "0.5s", conv: "5.1%", bounce: "19%" },
+      metric: "+240% Engagement",
+      description: "BrightBrand needed a full identity overhaul. We delivered a complete brand kit (logo, colors, fonts), redesigned their website, and created a 30-day social media image pack that tripled their Instagram engagement."
     }
   ];
 
   const servicesFaqs = [
     {
       id: 1,
-      q: "How does project pricing work at FrameLab?",
-      a: "We believe in total financial transparency. We work on flat, project-based pricing modeled on the complexity of your custom build. Standard template customization runs between $1,500 and $3,500, while bespoke full-stack React & Next.js applications range from $5,000 to $15,000 depending on integrations. You will receive a locked, guaranteed proposal before any work begins — with no hidden hourly surcharges."
+      q: "How does your pricing work?",
+      a: "We work on flat, project-based pricing. Plans start at $500 for a Starter package and go up to $1,500 for a full Pro build. You'll receive a locked, guaranteed proposal before any work begins — no hidden fees, no hourly surprises."
     },
     {
       id: 2,
-      q: "How long does a custom development cycle take?",
-      a: "Bespoke projects typically span between 3 to 6 weeks from initial Discovery to final Launch. Rapid template optimizations are completed and deployed in 5 to 9 days. We prioritize absolute precision and speed, delivering scheduled status reports every 3 days so you are always in the loop."
+      q: "What's the difference between website building and website rebuild?",
+      a: "Website building is a brand new site from scratch. A website rebuild is for businesses that already have a website but want to upgrade its design, speed, and functionality. We improve what you have without losing your SEO equity."
     },
     {
       id: 3,
-      q: "Can we manage the content ourselves once you launch?",
-      a: "Absolutely. We integrate highly intuitive, headless content management systems like Sanity or Contentful. Your marketing team can easily publish articles, update testimonials, edit landing copy, and scale services without ever touching code or writing a developer support ticket."
+      q: "What is a RAG agent and how is it different from a chatbot?",
+      a: "A chatbot handles conversations using predefined flows or AI. A RAG (Retrieval-Augmented Generation) agent goes further — it searches your knowledge base, documents, or database to retrieve accurate information and answer complex questions. Think of a chatbot as a receptionist and a RAG agent as a librarian with instant recall."
     },
     {
       id: 4,
-      q: "Are technical SEO features included out of the box?",
-      a: "Yes, technical search engine optimization is baked into our structural DNA. Every build includes custom meta tag payloads, canonical structures, optimized XML sitemaps, robots configurations, high-performance image optimization, responsive touch optimizations, and schema markup (JSON-LD) to ensure instant, clean indexation."
+      q: "Can you design social media content for my specific platforms?",
+      a: "Yes. We create custom social media marketing image packs tailored to your brand and optimized for each platform — Instagram, Facebook, LinkedIn, TikTok, and more. Sizes, formats, and styles are all platform-specific."
     },
     {
       id: 5,
-      q: "What hosting providers do you use for deployment?",
-      a: "We utilize serverless edge infrastructures like Vercel, Netlify, or Google Cloud Run. This ensures your website operates at sub-second load times globally, scales to millions of concurrent visits for fractions of a penny, and maintains absolute immunity to typical database attacks."
+      q: "Do you offer branding design separately?",
+      a: "Absolutely. You can get a logo, color palette, typography, and full brand kit as a standalone service, or bundled with any of our web or marketing packages."
     },
     {
       id: 6,
       q: "Do you offer post-launch maintenance and support?",
-      a: "Yes. Every project includes 30 days of complimentary VIP support and technical speed tracking. Beyond that, we offer proactive monthly performance plans that include routine speed optimization audits, dependency upgrades, copy edits, and visual health tracking to keep your platform running at 100/100."
+      a: "Yes. Every project includes post-launch support — 7 days for Starter, 14 days for Growth, and 30 days for Pro plans. Ongoing maintenance and content update plans are available."
     }
   ];
 
@@ -236,15 +237,15 @@ export default function ServicesPage() {
               
               <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-violet-50 text-violet-700 text-xs font-bold tracking-widest uppercase rounded-full w-fit">
                 <Sparkles className="w-3.5 h-3.5 animate-pulse" />
-                Bespoke Technical Capabilities
+                Full-Service Digital Agency
               </div>
               
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-sans font-black tracking-tight leading-[0.95] text-gray-950 text-balance">
-                Next-Gen React Ecosystems Built to <span className="text-violet-600">Convert and Scale.</span>
+                Websites. AI. Branding. Design. <span className="text-violet-600">All in One Place.</span>
               </h1>
               
               <p className="text-gray-500 text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-2xl text-balance">
-                We combine award-winning visual layouts with high-performance Next.js engineering to turn passive visitors into scheduled consultation bookings. No templates. No clutter. Just pure commercial speed.
+                We build websites, AI chatbots, RAG agents, brand identities, and social media visuals — everything your business needs to look professional, automate growth, and scale online.
               </p>
               
               <div className="flex flex-wrap gap-4 items-center mt-2">
@@ -269,7 +270,6 @@ export default function ServicesPage() {
                 </a>
               </div>
 
-              {/* FLOATING STATISTICS CARDS FOR HERO */}
               <div className="grid grid-cols-2 gap-4 mt-8 pt-8 border-t border-gray-100">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
@@ -277,17 +277,17 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <span className="block font-sans font-black text-xl text-gray-900 leading-none">100+</span>
-                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Projects Deployed</span>
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Projects Delivered</span>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center shrink-0">
-                    <TrendingUp className="w-5 h-5" />
+                    <Bot className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block font-sans font-black text-xl text-gray-900 leading-none">95%</span>
-                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Client Satisfaction</span>
+                    <span className="block font-sans font-black text-xl text-gray-900 leading-none">8 Services</span>
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Under One Roof</span>
                   </div>
                 </div>
 
@@ -296,8 +296,8 @@ export default function ServicesPage() {
                     <Zap className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block font-sans font-black text-xl text-gray-900 leading-none">0.4s</span>
-                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Avg. Load Speed</span>
+                    <span className="block font-sans font-black text-xl text-gray-900 leading-none">$500</span>
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Starting Price</span>
                   </div>
                 </div>
 
@@ -306,8 +306,8 @@ export default function ServicesPage() {
                     <Calendar className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block font-sans font-black text-xl text-gray-900 leading-none">3+ Yrs</span>
-                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Elite Experience</span>
+                    <span className="block font-sans font-black text-xl text-gray-900 leading-none">3-21 Days</span>
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Fast Delivery</span>
                   </div>
                 </div>
               </div>
@@ -328,7 +328,7 @@ export default function ServicesPage() {
                       <span className="w-3 h-3 rounded-full bg-amber-400" />
                       <span className="w-3 h-3 rounded-full bg-emerald-400" />
                     </div>
-                    <span className="text-[10px] text-gray-400 font-mono tracking-wider uppercase font-bold bg-gray-50 px-3 py-1 rounded-full border border-gray-100">nextcraft.io/capabilities</span>
+                    <span className="text-[10px] text-gray-400 font-mono tracking-wider uppercase font-bold bg-gray-50 px-3 py-1 rounded-full border border-gray-100">framelab.io/services</span>
                     <Lock className="w-3.5 h-3.5 text-gray-300" />
                   </div>
 
@@ -340,42 +340,40 @@ export default function ServicesPage() {
                           <Code2 className="w-4.5 h-4.5" />
                         </div>
                         <div>
-                          <div className="text-xs font-bold text-gray-900">React Core Bundle</div>
-                          <div className="text-[10px] text-violet-600 font-bold font-mono">100/100 Perfect Speed</div>
+                          <div className="text-xs font-bold text-gray-900">Website Build & Rebuild</div>
+                          <div className="text-[10px] text-violet-600 font-bold font-mono">Fast, Responsive, SEO</div>
                         </div>
                       </div>
-                      <span className="text-xs font-mono font-bold text-emerald-500 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-100">PASS</span>
+                      <span className="text-xs font-mono font-bold text-emerald-500 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-100">POPULAR</span>
                     </div>
 
                     <div className="flex justify-between items-center bg-gray-50/50 p-4 rounded-2xl border border-gray-100/50">
                       <div className="flex items-center gap-3">
                         <div className="w-9 h-9 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center shrink-0">
-                          <Cpu className="w-4.5 h-4.5" />
+                          <Bot className="w-4.5 h-4.5" />
                         </div>
                         <div>
-                          <div className="text-xs font-bold text-gray-900">Tailwind Visual System</div>
-                          <div className="text-[10px] text-gray-400 font-bold">Fluid Layout Topology</div>
+                          <div className="text-xs font-bold text-gray-900">AI Chatbot & RAG Agent</div>
+                          <div className="text-[10px] text-gray-400 font-bold">24/7 Automation</div>
                         </div>
                       </div>
-                      <span className="text-xs font-mono font-bold text-violet-600">ACTIVE</span>
+                      <span className="text-xs font-mono font-bold text-violet-600">NEW</span>
                     </div>
 
-                    {/* FCP Speed Indicator */}
                     <div className="bg-gray-50/40 p-4 rounded-2xl border border-gray-100/50">
                       <div className="flex justify-between items-center text-[10px] text-gray-400 font-mono font-bold uppercase tracking-wider mb-2">
-                        <span>First Contentful Paint (FCP)</span>
-                        <span className="text-emerald-500 font-black">0.4s</span>
+                        <span>Design & Branding</span>
+                        <span className="text-violet-500 font-black">Logo + Brand Kit</span>
                       </div>
                       <div className="w-full h-2.5 bg-gray-100 rounded-full overflow-hidden">
-                        <div className="w-[85%] h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full" />
+                        <div className="w-[85%] h-full bg-gradient-to-r from-violet-500 to-fuchsia-400 rounded-full" />
                       </div>
                     </div>
                   </div>
 
-                  {/* Micro Footer for the Graphic */}
                   <div className="flex justify-between items-center pt-4 border-t border-gray-100 text-[10px] text-gray-400 font-mono font-semibold">
-                    <span>⚡ SERVED BY VERCEL EDGE</span>
-                    <span>100% SECURE</span>
+                    <span>⚡ 8 SERVICES, 1 AGENCY</span>
+                    <span>$500 - $1,500</span>
                   </div>
 
                 </div>
@@ -386,8 +384,8 @@ export default function ServicesPage() {
                     <Activity className="w-5 h-5 animate-pulse" />
                   </div>
                   <div>
-                    <div className="text-sm font-black tracking-tight">+300%</div>
-                    <div className="text-[9px] uppercase font-bold tracking-wider text-slate-400">Inbound Conversions</div>
+                    <div className="text-sm font-black tracking-tight">8 Services</div>
+                    <div className="text-[9px] uppercase font-bold tracking-wider text-slate-400">One Agency</div>
                   </div>
                 </div>
 
@@ -407,43 +405,43 @@ export default function ServicesPage() {
               Agency Services
             </span>
             <h2 className="text-gray-950 font-sans font-black text-3xl sm:text-4xl md:text-5xl tracking-tight">
-              Handcrafted Capabilities. Built to Scale.
+              Full-Service Digital Agency. No Overhead.
             </h2>
             <p className="text-gray-500 text-sm sm:text-base">
-              Explore our core disciplines designed to deliver flawless visual brand presence, maximum loading speeds, and optimized lead generation.
+              From websites and AI to branding and social media — every service is designed to work together and grow your business.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             
-            {/* Service card 1 */}
+            {/* Service card 1 - Website Building & Rebuild */}
             <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center">
                   <Code2 className="w-5 h-5" />
                 </div>
-                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">React & Next.js Development</h3>
+                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">Website Building & Rebuild</h3>
                 <p className="text-gray-500 text-xs sm:text-sm leading-relaxed">
-                  High-speed modular structures written in TypeScript and optimized for continuous search crawl efficiency.
+                  Fast, modern websites built from scratch or existing sites rebuilt for performance and design.
                 </p>
                 <ul className="space-y-1.5 pt-2">
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
-                    Bespoke Next.js Architectures
+                    New Website Build
                   </li>
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
-                    TypeScript Clean Code
+                    Website Rebuild & Upgrade
                   </li>
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
-                    Headless CMS Setup
+                    SEO & Speed Optimized
                   </li>
                 </ul>
               </div>
               <button
                 onClick={() => {
-                  setActiveTab("nextjs-development");
+                  setActiveTab("website-building");
                   const el = document.getElementById("detailed_services_block_section");
                   if (el) el.scrollIntoView({ behavior: "smooth" });
                 }}
@@ -454,34 +452,72 @@ export default function ServicesPage() {
               </button>
             </div>
 
-            {/* Service card 2 */}
+            {/* Service card 2 - AI Chatbot & RAG Agent */}
+            <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col justify-between">
+              <div className="space-y-4">
+                <div className="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center">
+                  <Bot className="w-5 h-5" />
+                </div>
+                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">AI Chatbot & RAG Agent</h3>
+                <p className="text-gray-500 text-xs sm:text-sm leading-relaxed">
+                  Intelligent chatbots and knowledge-retrieval agents that automate support and capture leads 24/7.
+                </p>
+                <ul className="space-y-1.5 pt-2">
+                  <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
+                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
+                    AI Chatbot Development
+                  </li>
+                  <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
+                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
+                    RAG Agent with Knowledge Base
+                  </li>
+                  <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
+                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
+                    Lead Qualification Automation
+                  </li>
+                </ul>
+              </div>
+              <button
+                onClick={() => {
+                  setActiveTab("ai-chatbot-rag");
+                  const el = document.getElementById("detailed_services_block_section");
+                  if (el) el.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="mt-6 flex items-center gap-1.5 text-xs font-bold text-violet-600 hover:text-violet-800 transition-colors cursor-pointer group"
+              >
+                Explore Service
+                <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+              </button>
+            </div>
+
+            {/* Service card 3 - Web Design & Branding */}
             <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="w-10 h-10 rounded-xl bg-[#fff7ed] text-orange-500 flex items-center justify-center">
                   <Layers className="w-5 h-5" />
                 </div>
-                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">Premium UI/UX Design</h3>
+                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">Web Design & Branding</h3>
                 <p className="text-gray-500 text-xs sm:text-sm leading-relaxed">
-                  Tailored user journeys, grid spacing, and elegant aesthetic designs focused purely on conversion rates.
+                  Beautiful web designs paired with complete brand identity systems — logos, colors, and fonts.
                 </p>
                 <ul className="space-y-1.5 pt-2">
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
-                    Bespoke Figma UI/UX Design
+                    Custom Web Design (UI/UX)
                   </li>
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
-                    Interactive Wireframing
+                    Logo & Brand Identity
                   </li>
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
-                    Aesthetic Style Guidelines
+                    Full Brand Kit & Guidelines
                   </li>
                 </ul>
               </div>
               <button
                 onClick={() => {
-                  setActiveTab("uiux-design");
+                  setActiveTab("web-design");
                   const el = document.getElementById("detailed_services_block_section");
                   if (el) el.scrollIntoView({ behavior: "smooth" });
                 }}
@@ -492,72 +528,34 @@ export default function ServicesPage() {
               </button>
             </div>
 
-            {/* Service card 3 */}
-            <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col justify-between">
-              <div className="space-y-4">
-                <div className="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center">
-                  <Search className="w-5 h-5" />
-                </div>
-                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">SEO & Core Web Vitals Speed</h3>
-                <p className="text-gray-500 text-xs sm:text-sm leading-relaxed">
-                  Technical script auditing and layout shift elimination to hit perfect 100/100 Lighthouse scores.
-                </p>
-                <ul className="space-y-1.5 pt-2">
-                  <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
-                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
-                    Speed Score Optimization
-                  </li>
-                  <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
-                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
-                    JSON-LD Schema Markup
-                  </li>
-                  <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
-                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
-                    On-Page Keyword Mapping
-                  </li>
-                </ul>
-              </div>
-              <button
-                onClick={() => {
-                  setActiveTab("seo-speed-optimization");
-                  const el = document.getElementById("detailed_services_block_section");
-                  if (el) el.scrollIntoView({ behavior: "smooth" });
-                }}
-                className="mt-6 flex items-center gap-1.5 text-xs font-bold text-violet-600 hover:text-violet-800 transition-colors cursor-pointer group"
-              >
-                Explore Service
-                <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-              </button>
-            </div>
-
-            {/* Service card 4 */}
+            {/* Service card 4 - Social Media & Templates */}
             <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
                   <Sparkles className="w-5 h-5" />
                 </div>
-                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">Template customization</h3>
+                <h3 className="font-sans font-black text-lg text-gray-900 leading-snug">Social Media & Template Customization</h3>
                 <p className="text-gray-500 text-xs sm:text-sm leading-relaxed">
-                  Take a bought boilerplate or template and tailor it perfectly to your brand system with extreme polish.
+                  Scroll-stopping social media visuals and template customization tailored to your brand.
                 </p>
                 <ul className="space-y-1.5 pt-2">
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                    Tailoring Layout Colors
+                    Social Media Image Design
                   </li>
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                    Component Customization
+                    Template Customization
                   </li>
                   <li className="flex items-center gap-2 text-[11px] text-gray-600 font-semibold font-mono">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                    Rapid Launch in Days
+                    Content Calendar Graphics
                   </li>
                 </ul>
               </div>
               <button
                 onClick={() => {
-                  setActiveTab("custom-template");
+                  setActiveTab("social-media-templates");
                   const el = document.getElementById("detailed_services_block_section");
                   if (el) el.scrollIntoView({ behavior: "smooth" });
                 }}
@@ -579,21 +577,20 @@ export default function ServicesPage() {
             
             <div className="flex items-center gap-3 shrink-0">
               <span className="text-gray-400 font-bold font-mono text-[10px] uppercase tracking-widest bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-md">
-                Trusted Globally
+                Full-Service Agency
               </span>
               <p className="text-xs text-gray-500 font-semibold">
-                Powering high-growth platforms with sub-second performance.
+                Websites. AI. Design. Branding. Social. All in one place.
               </p>
             </div>
 
-            {/* Scrolling list of text-based minimal agency client logos */}
             <div className="flex flex-wrap justify-center md:justify-end items-center gap-x-8 gap-y-4 opacity-50 shrink-1">
-              <span className="font-sans font-black text-base text-gray-900 tracking-tight">TechCorp</span>
-              <span className="font-mono font-bold text-sm text-gray-900">DESIGN.HUB</span>
-              <span className="font-sans font-black text-base text-gray-900">STARTUP//X</span>
-              <span className="font-mono font-bold text-sm text-gray-900">BuildCo</span>
-              <span className="font-sans font-black text-base text-gray-900 tracking-tight">LaunchPad</span>
-              <span className="font-mono font-bold text-sm text-gray-900">ScaleUp</span>
+              <span className="font-sans font-black text-base text-gray-900 tracking-tight">Websites</span>
+              <span className="font-mono font-bold text-sm text-gray-900">AI CHATBOT</span>
+              <span className="font-sans font-black text-base text-gray-900">RAG//AGENT</span>
+              <span className="font-mono font-bold text-sm text-gray-900">BRANDING</span>
+              <span className="font-sans font-black text-base text-gray-900 tracking-tight">Design</span>
+              <span className="font-mono font-bold text-sm text-gray-900">SOCIAL</span>
             </div>
 
           </div>
@@ -605,17 +602,15 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
-            {/* Split layout: Left column contains high fidelity visualization of full stack setup */}
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-3xl overflow-hidden border border-gray-100/80 shadow-[0_15px_40px_rgba(0,0,0,0.03)] bg-gradient-to-br from-violet-50/20 to-gray-50/50 p-6 sm:p-8">
                 
-                {/* Visual mockup illustrating our peak bespoke Next.js capability */}
                 <div className="flex justify-between items-center bg-white border border-gray-100 p-4 rounded-xl shadow-sm mb-4">
                   <div className="flex items-center gap-2.5">
                     <span className="w-2 h-2 rounded-full bg-violet-600 animate-ping" />
-                    <span className="text-xs font-mono font-bold text-gray-900 uppercase tracking-wide">Next.js Edge Hydration</span>
+                    <span className="text-xs font-mono font-bold text-gray-900 uppercase tracking-wide">Website + AI Stack</span>
                   </div>
-                  <span className="text-[10px] font-mono font-bold text-violet-600 bg-violet-50 px-2.5 py-1 rounded-full">ACTIVE</span>
+                  <span className="text-[10px] font-mono font-bold text-violet-600 bg-violet-50 px-2.5 py-1 rounded-full">READY</span>
                 </div>
 
                 <div className="aspect-video bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 relative shadow-inner p-4 font-mono text-[10px] text-slate-300">
@@ -625,64 +620,61 @@ export default function ServicesPage() {
                       <span className="w-2 h-2 rounded-full bg-slate-700" />
                       <span className="w-2 h-2 rounded-full bg-slate-700" />
                     </div>
-                    <span className="text-slate-500 font-semibold text-[8px]">next.config.js</span>
-                    <Lock className="w-3 h-3 text-slate-600" />
+                    <span className="text-slate-500 font-semibold text-[8px]">services.config</span>
+                    <Bot className="w-3 h-3 text-slate-600" />
                   </div>
                   <div className="space-y-1.5">
-                    <p className="text-blue-400">const <span className="text-white">nextConfig</span> = &#123;</p>
-                    <p className="pl-4 text-slate-400">reactStrictMode: <span className="text-orange-400">true</span>,</p>
-                    <p className="pl-4 text-slate-400">swcMinify: <span className="text-orange-400">true</span>,</p>
-                    <p className="pl-4 text-slate-400">images: &#123; formats: [<span className="text-green-300">&apos;image/avif&apos;</span>, <span className="text-green-300">&apos;image/webp&apos;</span>] &#125;,</p>
-                    <p className="pl-4 text-slate-400">output: <span className="text-green-300">&apos;standalone&apos;</span></p>
+                    <p className="text-blue-400">const <span className="text-white">agencyServices</span> = &#123;</p>
+                    <p className="pl-4 text-slate-400">website: &#123; build: <span className="text-green-300">true</span>, rebuild: <span className="text-green-300">true</span> &#125;,</p>
+                    <p className="pl-4 text-slate-400">ai: &#123; chatbot: <span className="text-green-300">true</span>, ragAgent: <span className="text-green-300">true</span> &#125;,</p>
+                    <p className="pl-4 text-slate-400">design: &#123; web: <span className="text-green-300">true</span>, branding: <span className="text-green-300">true</span> &#125;,</p>
+                    <p className="pl-4 text-slate-400">marketing: &#123; socialMedia: <span className="text-green-300">true</span>, templates: <span className="text-green-300">true</span> &#125;</p>
                     <p className="text-blue-400">&#125;;</p>
-                    <p className="text-slate-500">// Optimized bundles delivered at sub-second speeds</p>
+                    <p className="text-slate-500">// Full-service agency — everything under one roof</p>
                   </div>
                 </div>
 
-                {/* Bottom Stats Grid */}
                 <div className="grid grid-cols-3 gap-3 mt-4">
                   <div className="bg-white border border-gray-100 rounded-xl p-3 text-center shadow-xs">
-                    <span className="block font-mono font-bold text-[10px] text-gray-400 uppercase tracking-wider">Lighthouse</span>
-                    <span className="font-sans font-black text-lg text-emerald-500">100/100</span>
+                    <span className="block font-mono font-bold text-[10px] text-gray-400 uppercase tracking-wider">Websites</span>
+                    <span className="font-sans font-black text-lg text-emerald-500">Build & Rebuild</span>
                   </div>
                   <div className="bg-white border border-gray-100 rounded-xl p-3 text-center shadow-xs">
-                    <span className="block font-mono font-bold text-[10px] text-gray-400 uppercase tracking-wider">Asset weight</span>
-                    <span className="font-sans font-black text-lg text-violet-600">-64%</span>
+                    <span className="block font-mono font-bold text-[10px] text-gray-400 uppercase tracking-wider">AI Solutions</span>
+                    <span className="font-sans font-black text-lg text-violet-600">Chatbots & RAG</span>
                   </div>
                   <div className="bg-white border border-gray-100 rounded-xl p-3 text-center shadow-xs">
-                    <span className="block font-mono font-bold text-[10px] text-gray-400 uppercase tracking-wider">Crawl budget</span>
-                    <span className="font-sans font-black text-lg text-blue-600">Perfect</span>
+                    <span className="block font-mono font-bold text-[10px] text-gray-400 uppercase tracking-wider">Design</span>
+                    <span className="font-sans font-black text-lg text-blue-600">Branding & Visuals</span>
                   </div>
                 </div>
 
               </div>
             </div>
 
-            {/* Split layout: Right column contains descriptive copy */}
             <div className="lg:col-span-6 flex flex-col gap-6">
               
               <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#fff7ed] text-orange-600 text-xs font-bold tracking-widest uppercase rounded-full w-fit">
                 <Sparkles className="w-3.5 h-3.5" />
-                Highest Value Capability
+                Full-Service Agency
               </div>
 
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-sans font-black tracking-tight leading-[1] text-gray-950 text-balance">
-                Bespoke Full-Stack React & Next.js Ecosystems
+                One Agency. All Your Digital Needs.
               </h2>
 
               <p className="text-gray-500 text-sm sm:text-base leading-relaxed antialiased">
-                For start-ups wanting maximum market differentiation, basic templating systems present a severe limitation. Our elite service delivers customized code architectures mapped specifically to your commercial sales funnels. We integrate Headless CMS infrastructures so your teams publish content in real-time, backed by the infinite performance of React edge computing.
+                Stop juggling multiple freelancers and agencies. We handle everything — from building and rebuilding websites to deploying AI chatbots and RAG agents, designing brand identities, creating scroll-stopping social media visuals, and customizing templates. One team, one workflow, one standard of excellence.
               </p>
 
-              {/* Bullet checklist */}
               <div className="space-y-3 pt-2">
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-violet-50 text-violet-600 flex items-center justify-center shrink-0 mt-0.5">
                     <Check className="w-3 h-3" strokeWidth={3} />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-gray-950">Sub-Second Largest Contentful Paint (LCP)</h4>
-                    <p className="text-xs text-gray-400">Pages render instantly across any global edge host, reducing visitor drops on mobile.</p>
+                    <h4 className="text-sm font-bold text-gray-950">Websites That Convert</h4>
+                    <p className="text-xs text-gray-400">New builds or rebuilds — fast, responsive, and optimized for search from day one.</p>
                   </div>
                 </div>
 
@@ -691,8 +683,8 @@ export default function ServicesPage() {
                     <Check className="w-3 h-3" strokeWidth={3} />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-gray-950">Secure and Immune Edge Node Deployments</h4>
-                    <p className="text-xs text-gray-400">Decoupled hosting architecture removes vulnerable SQL servers or PHP scripts.</p>
+                    <h4 className="text-sm font-bold text-gray-950">AI That Works 24/7</h4>
+                    <p className="text-xs text-gray-400">Chatbots and RAG agents that automate support, qualify leads, and scale your business.</p>
                   </div>
                 </div>
 
@@ -701,13 +693,12 @@ export default function ServicesPage() {
                     <Check className="w-3 h-3" strokeWidth={3} />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-gray-950">Integrated Headless CMS Dashboards</h4>
-                    <p className="text-xs text-gray-400">Enables rapid, visual post updates and metadata controls for your non-technical teams.</p>
+                    <h4 className="text-sm font-bold text-gray-950">Design That Stands Out</h4>
+                    <p className="text-xs text-gray-400">Brand identities, web designs, and social media visuals that make your business unforgettable.</p>
                   </div>
                 </div>
               </div>
 
-              {/* Call-to-action */}
               <div className="pt-4 flex flex-wrap gap-4 items-center">
                 <a
                   href="https://wa.me/212781783586?text=Hello%2C%20I%27m%20interested%20in%20your%20services%20and%20would%20like%20to%20schedule%20a%20discovery%20call.%0APlease%20provide%20available%20times%20and%20next%20steps."
@@ -715,7 +706,7 @@ export default function ServicesPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#0a0a0a] hover:bg-gray-900 text-white font-bold text-xs px-6 py-3.5 rounded-full shadow-md hover:translate-y-[-1px] transition-all cursor-pointer"
                 >
-                  Book free architecture consultation
+                  Book free consultation
                   <ArrowRight className="w-3.5 h-3.5" />
                 </a>
               </div>
@@ -732,13 +723,13 @@ export default function ServicesPage() {
           
           <div className="max-w-3xl mx-auto text-center mb-16 flex flex-col gap-3">
             <span className="text-violet-600 font-bold font-mono text-[10px] uppercase tracking-widest bg-violet-50 px-3 py-1.5 rounded-full w-fit mx-auto border border-violet-100/50">
-              Interactive Dashboard
+              Service Explorer
             </span>
             <h2 className="text-gray-950 font-sans font-black text-3xl sm:text-4xl md:text-5xl tracking-tight">
-              Bespoke Service Details
+              Explore Each Service
             </h2>
             <p className="text-gray-500 text-sm sm:text-base">
-              Select a service below to explore its comprehensive technical specifications, timelines, deliverables, and commercial outcomes.
+              Select a service below to explore what's included, deliverables, timelines, and key benefits.
             </p>
           </div>
 
@@ -847,7 +838,7 @@ export default function ServicesPage() {
                   {/* Pricing transparency notice */}
                   <div className="space-y-4">
                     <p className="text-[10px] text-gray-400 font-mono leading-normal">
-                      * All prices are transparently quoted upon project scope sign-off. Work is backed by a complimentary 30-day post-launch VIP speed-tracking and adjustment warranty.
+                      * All prices are flat-rate and transparently quoted upon project scope sign-off. Work is backed by complimentary post-launch support.
                     </p>
 
                     <a
@@ -876,10 +867,10 @@ export default function ServicesPage() {
               The Blueprint
             </span>
             <h2 className="text-gray-950 font-sans font-black text-3xl sm:text-4xl md:text-5xl tracking-tight">
-              Our Premium Process
+              Our Agency Process
             </h2>
             <p className="text-gray-500 text-sm sm:text-base">
-              A meticulously structured 7-step roadmap designed to coordinate every detail from research to launch with zero commercial friction.
+              From your first brief to final delivery — a streamlined process that works across websites, AI, design, and marketing.
             </p>
           </div>
 
@@ -986,10 +977,10 @@ export default function ServicesPage() {
               Core Pillars
             </span>
             <h2 className="text-gray-950 font-sans font-black text-3xl sm:text-4xl md:text-5xl tracking-tight">
-              Why Leaders Select FrameLab
+              Why Businesses Choose FrameLab
             </h2>
             <p className="text-gray-500 text-sm sm:text-base">
-              We operate at the intersection of extreme speed and beautiful aesthetics, stripping away development fluff to double startup growth.
+              One agency for everything digital — websites, AI, branding, and social media. No middlemen, no complexity, just results.
             </p>
           </div>
 
@@ -1000,42 +991,42 @@ export default function ServicesPage() {
               <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center mb-4">
                 <Zap className="w-5 h-5" />
               </div>
-              <h3 className="font-sans font-black text-base text-gray-900 mb-2">Sub-Second Load Times</h3>
+              <h3 className="font-sans font-black text-base text-gray-900 mb-2">One Agency, All Services</h3>
               <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                By compiling React structures at build time, pages download on consumer browser views globally in fractions of a second.
+                No need to coordinate between different freelancers. We handle websites, AI, branding, and social media in one seamless workflow.
               </p>
             </div>
 
             {/* Benefit 2 */}
             <div className="bg-white border border-gray-100 p-6 rounded-2xl hover:shadow-md transition-all duration-300">
               <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center mb-4">
-                <MousePointerClick className="w-5 h-5" />
+                <Bot className="w-5 h-5" />
               </div>
-              <h3 className="font-sans font-black text-base text-gray-900 mb-2">Conversion-Led UX</h3>
+              <h3 className="font-sans font-black text-base text-gray-900 mb-2">AI-Powered Automation</h3>
               <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                Every layout line, margins, buttons, and visual element is positioned specifically to reduce bounce and collect inbound prospects.
+                From chatbots that qualify leads to RAG agents that answer from your knowledge base — we make AI work for your business.
               </p>
             </div>
 
             {/* Benefit 3 */}
             <div className="bg-white border border-gray-100 p-6 rounded-2xl hover:shadow-md transition-all duration-300">
               <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center mb-4">
-                <Code2 className="w-5 h-5" />
+                <Layers className="w-5 h-5" />
               </div>
-              <h3 className="font-sans font-black text-base text-gray-900 mb-2">Future-Proof Architecture</h3>
+              <h3 className="font-sans font-black text-base text-gray-900 mb-2">Full Brand Identity</h3>
               <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                We write strict, componentized TypeScript codebases that easily support scale, are incredibly secure, and are simple to edit.
+                Logos, color palettes, typography, and brand kits — we create cohesive visual identities that make your business unforgettable.
               </p>
             </div>
 
             {/* Benefit 4 */}
             <div className="bg-white border border-gray-100 p-6 rounded-2xl hover:shadow-md transition-all duration-300">
               <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center mb-4">
-                <Search className="w-5 h-5" />
+                <Sparkles className="w-5 h-5" />
               </div>
-              <h3 className="font-sans font-black text-base text-gray-900 mb-2">SEO DNA Injected</h3>
+              <h3 className="font-sans font-black text-base text-gray-900 mb-2">Social Media Ready</h3>
               <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                We write custom semantic schemas, crawl sitemaps, robots configurations, and structural metadata parameters from day one.
+                Scroll-stopping social media marketing images and ad creative that keeps your brand consistent across every platform.
               </p>
             </div>
 
@@ -1055,7 +1046,7 @@ export default function ServicesPage() {
               Metrics That Drive Growth
             </h2>
             <p className="text-gray-500 text-sm sm:text-base">
-              See the direct commercial consequences of replacing database templates with high-fidelity Next.js ecosystems.
+              Real results from real projects — see how our services drive measurable growth.
             </p>
           </div>
 
@@ -1177,7 +1168,7 @@ export default function ServicesPage() {
               Frequently Asked Questions
             </h2>
             <p className="text-gray-500 text-sm sm:text-base">
-              Got questions about our services, pricing metrics, or development flow? Here are clear, structured insights.
+              Got questions about our services, pricing, or process? Here are clear answers.
             </p>
           </div>
 
@@ -1244,15 +1235,15 @@ export default function ServicesPage() {
 
             <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-violet-500/10 text-violet-300 text-xs font-bold tracking-widest uppercase rounded-full w-fit">
               <Sparkles className="w-3.5 h-3.5" />
-              Let&apos;s Scale Together
+              Let&apos;s Build Together
             </div>
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-sans font-black tracking-tight leading-none text-white max-w-2xl text-balance">
-              Ready to Build Your Online Success Story?
+              Ready to Grow Your Business?
             </h2>
 
             <p className="text-slate-400 text-sm sm:text-base max-w-xl leading-relaxed">
-              Partner with FrameLab to secure perfect Core Web Vitals scores, custom Figma design wireframes, and high-converting Next.js engines.
+              Partner with FrameLab for websites that convert, AI that automates, branding that stands out, and social media that engages.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mt-4 relative z-10">
@@ -1278,7 +1269,7 @@ export default function ServicesPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              SLOTS AVAILABLE FOR THIS MONTIHL
+              SLOTS AVAILABLE THIS MONTH
             </div>
 
           </div>

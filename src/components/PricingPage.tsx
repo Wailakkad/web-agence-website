@@ -10,7 +10,7 @@ import {
   ChevronRight,
   Send,
   Clock,
-  Activity,
+  Bot,
   Award,
   Star,
   CheckCircle2,
@@ -35,69 +35,63 @@ interface PricingPlan {
 
 const PLANS: PricingPlan[] = [
   {
-    name: "Essential",
-    badge: "Starter",
-    desc: "A clean, responsive single-page website or landing page — perfect for freelancers, startups, and small projects.",
-    price: "1,200",
+    name: "Starter",
+    badge: "Essential",
+    desc: "Perfect for new businesses — a clean single-page website with template customization and social media visuals to get you online fast.",
+    price: "500",
     unit: "$",
     interval: "flat",
     popular: false,
-    highlight: "Ideal for freelancers & early-stage startups",
+    highlight: "Ideal for freelancers & new startups",
     cta: "Start Essential",
     features: [
-      "Custom React & Next.js development",
-      "Modern UI/UX design tailored to your brand",
-      "1 fully responsive page",
-      "SEO optimization & meta tags",
-      "Contact form integration",
-      "Speed optimization — 90+ Lighthouse",
-      "5-7 day delivery",
-      "7 days post-launch support"
+      "Web design (1 page)",
+      "Template customization",
+      "Social media marketing images (5 designs)",
+      "1 revision round",
+      "7 days delivery",
+      "Basic SEO setup"
     ]
   },
   {
-    name: "Business",
+    name: "Growth",
     badge: "Most Popular",
-    desc: "A full multi-page business website with custom design, CMS, and everything you need to establish your brand online.",
-    price: "2,500",
+    desc: "For growing brands — a multi-page website or rebuild with full branding, web design, and expanded social media content.",
+    price: "900",
     unit: "$",
     interval: "flat",
     popular: true,
     highlight: "Perfect for growing businesses & established brands",
-    cta: "Start Business Plan",
+    cta: "Start Growth Plan",
     features: [
-      "Custom React & Next.js development",
-      "Premium UI/UX design in Figma",
-      "Up to 5 fully responsive pages",
-      "SEO optimization & JSON-LD schema",
-      "Headless CMS integration (Sanity)",
-      "Blog engine & lead capture forms",
-      "Google Analytics & tracking setup",
-      "2-3 week delivery",
-      "30 days post-launch support"
+      "Website building up to 3 pages OR website rebuild",
+      "Web design (full site)",
+      "Branding design (logo + color palette + fonts)",
+      "Social media marketing images (10 designs)",
+      "Template customization",
+      "2 revision rounds",
+      "14 days delivery"
     ]
   },
   {
-    name: "Premium",
+    name: "Pro",
     badge: "Best Value",
-    desc: "A fully custom web application or multi-page platform with advanced features, animations, and a complete design system.",
-    price: "4,900",
+    desc: "The complete package — a full website, AI chatbot or RAG agent, premium branding, and everything you need to scale.",
+    price: "1,500",
     unit: "$",
     interval: "flat",
     popular: false,
     highlight: "Best for ambitious projects & high-growth brands",
-    cta: "Start Premium Build",
+    cta: "Start Pro Build",
     features: [
-      "Bespoke React & Next.js architecture",
-      "Complete custom UI/UX design system",
-      "Unlimited pages & dynamic routes",
-      "Advanced animations & micro-interactions",
-      "Custom API routes & server actions",
-      "Full CMS & dashboard integration",
-      "Comprehensive SEO & Core Web Vitals",
-      "Third-party integrations (payments, CRMs)",
-      "CI/CD pipeline & staging environment",
-      "60 days priority support"
+      "Website building up to 5 pages OR website rebuild",
+      "Web design (full site)",
+      "Branding design (full brand kit)",
+      "AI chatbot building OR RAG agent building",
+      "Social media marketing images (15 designs)",
+      "Template customization",
+      "3 revision rounds",
+      "21 days delivery + 30 days support"
     ]
   }
 ];
@@ -108,24 +102,24 @@ const FAQS = [
     a: "We quote every project based on its specific scope, complexity, and technical requirements. Once you approve the proposal, the price is locked — no hourly billing, no surprise overages. If requirements change mid-project, we'll transparently discuss any adjustments before proceeding."
   },
   {
-    q: "What if I need more pages or features than included?",
-    a: "Our plans are starting points. We'll work with you to understand your exact needs and provide a detailed custom quote. Additional pages, complex integrations, or extended functionality are scoped and priced transparently before work begins."
+    q: "What's the difference between website building and website rebuild?",
+    a: "Website building is a fresh build from the ground up. A website rebuild is for businesses that already have a site but want to upgrade its design, speed, and functionality without starting completely from scratch. Both options are available across our plans."
   },
   {
     q: "Do you offer payment plans?",
-    a: "Yes. We typically structure payments in milestones: 50% upfront to begin, 25% on design approval, and 25% on launch. For larger enterprise projects, we can customize a payment schedule that works for your cash flow."
+    a: "Yes. We typically structure payments in milestones: 50% upfront to begin, 25% on design approval, and 25% on launch. For larger projects, we can customize a payment schedule that works for your cash flow."
   },
   {
     q: "How long does a typical project take?",
-    a: "Essential builds are delivered in 5-9 days. Business websites take 2-3 weeks. Premium builds range from 4-6 weeks depending on complexity. All timelines are scoped during the discovery phase."
+    a: "Starter builds are delivered in 7 days. Growth projects take about 14 days. Pro builds range from 21 days depending on complexity. All timelines are scoped during the discovery phase."
   },
   {
-    q: "What happens after launch?",
-    a: "Every project includes complimentary post-launch support — 7 days for Essential, 30 days for Business and Premium builds. We monitor performance, fix any issues, and ensure everything runs smoothly. Ongoing maintenance plans are available."
+    q: "Can I add both an AI chatbot AND a RAG agent to my project?",
+    a: "Absolutely. The Pro plan includes one of the two, but you can add both as an upsell. AI chatbots handle customer support and lead qualification, while RAG agents retrieve information from your knowledge base to answer complex queries."
   },
   {
     q: "Can I upgrade my plan later?",
-    a: "Absolutely. If you start with an Essential build and need to scale, we can transition you to a Business or Premium plan. We'll handle the migration seamlessly and credit any work already completed toward your new plan."
+    a: "Absolutely. If you start with a Starter build and need to scale, we can transition you to a Growth or Pro plan. We'll handle the migration seamlessly and credit any work already completed toward your new plan."
   }
 ];
 
@@ -162,7 +156,7 @@ export default function PricingPage() {
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                 className="text-4xl sm:text-5xl md:text-6xl font-sans font-black tracking-tight leading-[0.95] text-gray-950 text-balance"
               >
-                Fixed-Price Plans.<br />No <span className="text-violet-600">Hidden Fees.</span>
+                Fixed Price.<br />Clear Scope. <span className="text-violet-600">Fast Delivery.</span>
               </motion.h1>
 
               <motion.p
@@ -171,7 +165,7 @@ export default function PricingPage() {
                 transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
                 className="text-gray-500 text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-2xl text-balance"
               >
-                Every project is quoted with a locked flat rate before any work begins. No hourly billing, no hidden fees — just premium React engineering delivered on time and on budget.
+                Every project is quoted with a locked flat rate before any work begins. No hourly billing, no hidden fees — from websites and AI chatbots to branding and social media design.
               </motion.p>
 
               <motion.div
@@ -213,17 +207,17 @@ export default function PricingPage() {
                     <Clock className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block font-sans font-black text-lg text-gray-900 leading-none">5-9 Days</span>
-                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Quick Turnaround</span>
+                    <span className="block font-sans font-black text-lg text-gray-900 leading-none">7-21 Days</span>
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Delivery Time</span>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl bg-orange-50 text-orange-500 flex items-center justify-center shrink-0">
-                    <Activity className="w-5 h-5" />
+                    <Bot className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block font-sans font-black text-lg text-gray-900 leading-none">100/100</span>
-                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Lighthouse Score</span>
+                    <span className="block font-sans font-black text-lg text-gray-900 leading-none">AI Ready</span>
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-gray-400">Chatbots & RAG Agents</span>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -253,29 +247,29 @@ export default function PricingPage() {
                   <div className="my-6 space-y-4">
                     <div className="bg-white border border-gray-100 rounded-2xl p-4 shadow-sm">
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-xs font-bold text-gray-900">Essential</span>
-                        <span className="text-xs font-mono font-black text-violet-600">$1,200</span>
+                        <span className="text-xs font-bold text-gray-900">Starter</span>
+                        <span className="text-xs font-mono font-black text-violet-600">$500</span>
                       </div>
                       <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                        <div className="w-[25%] h-full bg-violet-500 rounded-full" />
+                        <div className="w-[20%] h-full bg-violet-500 rounded-full" />
                       </div>
                     </div>
                     <div className="bg-white border border-gray-100 rounded-2xl p-4 shadow-sm">
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-xs font-bold text-gray-900">Business</span>
-                        <span className="text-xs font-mono font-black text-emerald-600">$2,500</span>
+                        <span className="text-xs font-bold text-gray-900">Growth</span>
+                        <span className="text-xs font-mono font-black text-emerald-600">$900</span>
                       </div>
                       <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                        <div className="w-[55%] h-full bg-emerald-500 rounded-full" />
+                        <div className="w-[45%] h-full bg-emerald-500 rounded-full" />
                       </div>
                     </div>
                     <div className="bg-white border border-gray-100 rounded-2xl p-4 shadow-sm">
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-xs font-bold text-gray-900">Premium</span>
-                        <span className="text-xs font-mono font-black text-amber-600">$4,900</span>
+                        <span className="text-xs font-bold text-gray-900">Pro</span>
+                        <span className="text-xs font-mono font-black text-amber-600">$1,500</span>
                       </div>
                       <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                        <div className="w-[85%] h-full bg-amber-500 rounded-full" />
+                        <div className="w-[75%] h-full bg-amber-500 rounded-full" />
                       </div>
                     </div>
                   </div>
@@ -316,7 +310,7 @@ export default function PricingPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {PLANS.map((plan, idx) => (
               <motion.div
                 key={plan.name}
@@ -411,10 +405,10 @@ export default function PricingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "01", icon: <Send className="w-5 h-5" />, title: "Submit Brief", desc: "Tell us about your project, goals, and timeline through our detailed contact form." },
+              { step: "01", icon: <Send className="w-5 h-5" />, title: "Submit Brief", desc: "Tell us about your project goals — website build, redesign, AI chatbot, branding, or social media." },
               { step: "02", icon: <Code2 className="w-5 h-5" />, title: "Get Your Quote", desc: "We review your requirements and deliver a locked flat-rate proposal within 24 hours." },
-              { step: "03", icon: <Layers className="w-5 h-5" />, title: "Design & Build", desc: "Once approved, we design in Figma and build your high-performance React/Next.js site." },
-              { step: "04", icon: <Zap className="w-5 h-5" />, title: "Launch & Support", desc: "We deploy to production, run performance audits, and provide post-launch support." },
+              { step: "03", icon: <Layers className="w-5 h-5" />, title: "Design & Build", desc: "Once approved, we design, build, and integrate everything — from web to AI to branding." },
+              { step: "04", icon: <Zap className="w-5 h-5" />, title: "Launch & Support", desc: "We deploy to production and provide post-launch support with 30-day warranty on Pro plans." },
             ].map((item) => (
               <motion.div
                 key={item.step}
@@ -499,7 +493,7 @@ export default function PricingPage() {
             Ready to Build Something Great?
           </h2>
           <p className="text-slate-400 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed text-balance">
-            Get a free, no-obligation quote within 24 hours. Tell us about your project and we'll put together a detailed proposal.
+            Get a free, no-obligation quote within 24 hours. Whether you need a website, AI chatbot, branding, or social media content — we've got you covered.
           </p>
           <div className="flex flex-wrap gap-4 items-center justify-center pt-4">
             <a

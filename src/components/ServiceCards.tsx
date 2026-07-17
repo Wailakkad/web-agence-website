@@ -51,14 +51,14 @@ export default function ServiceCards() {
         <div className="mb-12 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
           <div>
             <span className="text-violet-600 font-bold font-mono text-[10px] uppercase tracking-widest bg-violet-50 px-3 py-1.5 rounded-full">
-              Core Capabilities
+              Full Agency Services
             </span>
             <h2 className="text-[#0a0a0a] font-sans font-black text-3xl sm:text-4xl md:text-5xl tracking-tight mt-3">
-              Services Built to Scale.
+              Everything You Need Under One Roof.
             </h2>
           </div>
           <p className="text-gray-400 font-medium text-xs sm:text-sm max-w-xs md:text-right">
-            Handcrafted with pixel-perfection to elevate your business' speed, aesthetic, and conversions.
+            From websites and AI to branding and social media — we design, build, and scale your entire digital presence.
           </p>
         </div>
 
@@ -68,44 +68,44 @@ export default function ServiceCards() {
           id="service_cards_bento_grid"
           className="grid grid-cols-1 lg:grid-cols-4 gap-6"
         >
-          {/* Card 1 - React Templates (Linear Gradient Orange) */}
-          <div className="service-card-animate lg:col-span-1">
+          {/* Card 1 - Website & AI Services (Wider layout - Purple Gradient) */}
+          <div className="service-card-animate lg:col-span-2">
             <ServiceCard
-              id="react_templates"
-              type="simple"
-              title={"React & Next.js\nTemplates"}
-              gradientClass="bg-gradient-to-br from-[#f97316] to-[#ea580c] hover:brightness-105"
+              id="website_ai"
+              type="wide"
+              title={"Website Building\n& AI Solutions"}
+              description="From new websites and rebuilds to AI chatbots and RAG agents — we build everything that powers your business online."
+              gradientClass="bg-gradient-to-br from-[#7c3aed] to-[#4f46e5]"
               imageSrc={SERVICE_IMAGE_REACT_TEMPLATE}
+              bullets={[
+                "Website Building & Rebuild",
+                "AI Chatbot Development",
+                "RAG Agent Building",
+              ]}
               colSpanClass="w-full"
             />
           </div>
 
-          {/* Card 2 - Web Development (Near black) */}
+          {/* Card 2 - Web Design & Branding (Orange Gradient) */}
           <div className="service-card-animate lg:col-span-1">
             <ServiceCard
-              id="web_development"
+              id="design_branding"
               type="simple"
-              title={"Web\nDevelopment"}
-              gradientClass="bg-[#0a0a0a] border-white/20 hover:brightness-110"
+              title={"Web Design\n& Branding"}
+              gradientClass="bg-gradient-to-br from-[#f97316] to-[#ea580c] hover:brightness-105"
               imageSrc={SERVICE_IMAGE_WEB_DEV}
               colSpanClass="w-full"
             />
           </div>
 
-          {/* Card 3 - SEO, Performance & Analytics (Linear Gradient Purple to Blue - Wider layout) */}
-          <div className="service-card-animate lg:col-span-2">
+          {/* Card 3 - Social Media & Templates (Dark) */}
+          <div className="service-card-animate lg:col-span-1">
             <ServiceCard
-              id="seo_performance"
-              type="wide"
-              title={"SEO, Performance\n& Analytics"}
-              description="Boost visibility and keep your site running at peak performance with ongoing optimization."
-              gradientClass="bg-gradient-to-br from-[#7c3aed] to-[#4f46e5]"
+              id="social_templates"
+              type="simple"
+              title={"Social Media\n& Templates"}
+              gradientClass="bg-[#0a0a0a] border-white/20 hover:brightness-110"
               imageSrc={SERVICE_IMAGE_ANALYTICS}
-              bullets={[
-                "Core Web Vitals Optimization",
-                "Technical SEO & Schema Integration",
-                "Ongoing Proactive Site Maintenance",
-              ]}
               colSpanClass="w-full"
             />
           </div>

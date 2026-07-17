@@ -154,7 +154,7 @@ export default function ServicesSection() {
         {/* SECTION HEADER: Space-between, high-contrast, interactive CTA */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-16 pb-8 border-b border-gray-200/50">
           <h2 className="services-title text-[#0a0a0a] font-sans font-black text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none">
-            Design. Build. Scale.
+            Websites. AI. Branding. Design.
           </h2>
           
           <div className="services-header-btn shrink-0">
@@ -172,142 +172,117 @@ export default function ServicesSection() {
         {/* 2x2 Services Grid */}
         <div className="services-grid grid grid-cols-1 md:grid-cols-2 gap-6 pb-6">
           
-          {/* CARD 1: React & Next.js Templates */}
-          <ServiceCard id="card_react_templates">
+          {/* CARD 1: Website Building & Rebuild */}
+          <ServiceCard id="card_website_building">
             <div>
               <h3 className="font-bold text-xl sm:text-2xl text-[#0a0a0a] mb-3 tracking-tight">
-                React & Next.js Templates
+                Website Building & Rebuild
               </h3>
               
               <p className="text-gray-500 text-xs sm:text-sm leading-relaxed antialiased">
-                Browse our library of{" "}
-                <Highlight>premium, conversion-optimized</Highlight> React and
-                Next.js templates built for{" "}
-                <Highlight>speed, SEO, and scalability</Highlight>, so your
-                brand launches faster.
+                We build <Highlight>fast, modern websites</Highlight> from scratch or
+                rebuild existing sites that need a{" "}
+                <Highlight>performance and design upgrade</Highlight>. Fully
+                responsive, SEO-optimized, and ready to convert.
               </p>
 
               <TagPills
                 tags={[
-                  "Next.js Templates",
-                  "React Components",
-                  "Tailwind CSS",
-                  "TypeScript",
-                  "Dark Mode Ready",
+                  "New Website Build",
+                  "Website Rebuild",
+                  "Responsive Design",
+                  "Performance Upgrade",
                   "SEO Optimized",
+                  "Mobile First",
                 ]}
               />
             </div>
 
-            {/* Visual Mockup - Split window component view */}
             <div className="w-full h-36 mt-6 relative" style={{ perspective: "1000px" }}>
               <div
                 className="w-full h-full bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg select-none"
                 style={{ transform: "rotateX(8deg)" }}
               >
-                {/* Simulated browser header bar */}
                 <div className="bg-slate-950/60 px-3 py-2 flex items-center justify-between border-b border-slate-800/80">
                   <div className="flex gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-red-400" />
                     <span className="w-2 h-2 rounded-full bg-amber-400" />
                     <span className="w-2 h-2 rounded-full bg-emerald-400" />
                   </div>
-                  <span className="text-[9px] text-slate-500 font-mono">templates.nextcraft.io</span>
+                  <span className="text-[9px] text-slate-500 font-mono">yourbrand.com</span>
                   <div className="w-4" />
                 </div>
 
-                {/* Grid Split Content */}
                 <div className="grid grid-cols-12 h-24">
-                  
-                  {/* Left Code Editor mockup */}
                   <div className="col-span-4 bg-slate-950/40 border-r border-slate-800/80 p-2 flex flex-col gap-1.5 font-mono text-[8px]">
                     <div className="flex items-center gap-1.5 text-[#38bdf8] font-bold">
-                      <span>{`App.tsx`}</span>
+                      <span>Build vs Rebuild</span>
                     </div>
                     <div className="space-y-1 opacity-80 scale-95 origin-top-left">
-                      <div className="w-12 h-1 bg-slate-700 rounded" />
-                      <div className="w-16 h-1 bg-violet-400 rounded" />
-                      <div className="w-14 h-1 bg-amber-400 rounded" />
+                      <div className="w-16 h-1 bg-emerald-400 rounded" />
+                      <div className="w-14 h-1 bg-violet-400 rounded" />
+                      <div className="w-12 h-1 bg-amber-400 rounded" />
                       <div className="w-10 h-1 bg-slate-700 rounded" />
                     </div>
                   </div>
 
-                  {/* Right Preview content mockup */}
                   <div className="col-span-8 bg-white p-3 flex flex-col justify-between relative">
                     <div className="space-y-1.5">
                       <div className="w-20 h-2 bg-slate-200 rounded" />
                       <div className="w-32 h-1 bg-slate-100 rounded" />
                       <div className="w-28 h-1 bg-slate-100 rounded" />
+                      <div className="w-24 h-1 bg-violet-100 rounded" />
                     </div>
 
                     <div className="absolute right-2 bottom-2.5 flex items-center gap-1.5">
-                      {/* Next.js logomark */}
                       <div className="w-5 h-5 rounded-full bg-black flex items-center justify-center shrink-0">
-                        <span className="text-[9px] text-white font-black leading-none uppercase">N</span>
+                        <span className="text-[9px] text-white font-black leading-none">W</span>
                       </div>
-
-                      {/* React Atom */}
-                      <div className="w-5 h-5 rounded-full bg-[#00d8ff]/10 border border-[#00d8ff]/30 flex items-center justify-center shrink-0">
-                        <svg
-                          className="w-3.5 h-3.5 text-[#00d8ff] animate-[spin_8s_linear_infinite]"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                        >
-                          <ellipse cx="12" cy="12" rx="3.5" ry="9" transform="rotate(30 12 12)" />
-                          <ellipse cx="12" cy="12" rx="3.5" ry="9" transform="rotate(90 12 12)" />
-                          <ellipse cx="12" cy="12" rx="3.5" ry="9" transform="rotate(150 12 12)" />
-                          <circle cx="12" cy="12" r="1" fill="currentColor" />
-                        </svg>
+                      <div className="w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center shrink-0">
+                        <span className="text-[9px] text-emerald-600 font-black">R</span>
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
           </ServiceCard>
 
-          {/* CARD 2: Web Development */}
-          <ServiceCard id="card_web_development">
+          {/* CARD 2: AI Chatbot & RAG Agent */}
+          <ServiceCard id="card_ai_services">
             <div>
               <h3 className="font-bold text-xl sm:text-2xl text-[#0a0a0a] mb-3 tracking-tight">
-                Web Development
+                AI Chatbot & RAG Agent
               </h3>
 
               <p className="text-gray-500 text-xs sm:text-sm leading-relaxed antialiased">
-                We build <Highlight>high-performance</Highlight> websites with{" "}
-                <Highlight>clean, scalable React code</Highlight>, optimized for
-                speed, responsiveness, and{" "}
-                <Highlight>seamless user experience</Highlight>.
+                Deploy <Highlight>intelligent AI chatbots</Highlight> for customer
+                support or <Highlight>RAG agents</Highlight> that retrieve answers
+                from your knowledge base — built to{" "}
+                <Highlight>automate and scale</Highlight> your business.
               </p>
 
               <TagPills
                 tags={[
-                  "React Development",
-                  "Next.js",
-                  "API Integration",
-                  "Responsive Design",
-                  "Performance Optimization",
-                  "TypeScript",
+                  "AI Chatbot",
+                  "RAG Agent",
+                  "Lead Qualification",
+                  "Knowledge Base",
+                  "Customer Support",
+                  "Automation",
                 ]}
               />
             </div>
 
-            {/* Visual logo grid mockup */}
             <div className="rounded-xl border border-gray-100 bg-gray-50 p-4 mt-6">
-              
-              {/* Top micro indicators */}
               <div className="flex gap-2 justify-center text-gray-300 font-mono text-[10px] mb-3 select-none">
-                <span>⚛️</span>
+                <span>🤖</span>
                 <span>+</span>
-                <span>📁</span>
+                <span>🧠</span>
                 <span>=</span>
-                <span>✨</span>
+                <span>⚡</span>
               </div>
 
-              {/* Grid 3x2 containing premium custom logomarks */}
               <motion.div
                 variants={logosContainerVariants}
                 initial="hidden"
@@ -315,157 +290,152 @@ export default function ServicesSection() {
                 viewport={{ once: true, margin: "-40px" }}
                 className="grid grid-cols-3 gap-3 max-w-[240px] mx-auto"
               >
-                {/* 1. React Logo Box */}
                 <motion.div
                   variants={logoBoxVariants}
-                  className="h-16 rounded-xl bg-sky-500/5 border border-sky-400/20 flex flex-col items-center justify-center text-[#00d8ff] shadow-sm cursor-default"
+                  className="h-16 rounded-xl bg-violet-500/5 border border-violet-400/20 flex flex-col items-center justify-center text-violet-600 shadow-sm cursor-default"
                 >
-                  <svg className="w-7 h-7 text-[#00d8ff] animate-[spin_12s_linear_infinite]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <ellipse cx="12" cy="12" rx="3" ry="8.5" transform="rotate(30 12 12)" />
-                    <ellipse cx="12" cy="12" rx="3" ry="8.5" transform="rotate(90 12 12)" />
-                    <ellipse cx="12" cy="12" rx="3" ry="8.5" transform="rotate(150 12 12)" />
+                  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <rect x="3" y="11" width="18" height="11" rx="2" />
+                    <path d="M7 11V7a5 5 0 0110 0v4" />
                   </svg>
-                  <span className="text-[7.5px] font-bold mt-1 font-mono tracking-wider">REACT</span>
+                  <span className="text-[7.5px] font-bold mt-1 font-mono tracking-wider">CHATBOT</span>
                 </motion.div>
 
-                {/* 2. Next.js Box */}
                 <motion.div
                   variants={logoBoxVariants}
-                  className="h-16 rounded-xl bg-black border border-neutral-900 flex flex-col items-center justify-center text-white shadow-sm cursor-default"
+                  className="h-16 rounded-xl bg-emerald-500/5 border border-emerald-400/20 flex flex-col items-center justify-center text-emerald-600 shadow-sm cursor-default"
                 >
-                  <span className="font-sans font-black text-xl leading-none">N</span>
-                  <span className="text-[7.5px] font-bold mt-1.5 font-mono tracking-wider">NEXT.JS</span>
-                </motion.div>
-
-                {/* 3. TypeScript Box */}
-                <motion.div
-                  variants={logoBoxVariants}
-                  className="h-16 rounded-xl bg-[#3178c6]/5 border border-[#3178c6]/20 flex flex-col items-center justify-center text-[#3178c6] shadow-sm cursor-default"
-                >
-                  <span className="font-bold font-mono text-lg leading-none">TS</span>
-                  <span className="text-[7.5px] font-bold mt-1.5 font-mono tracking-wider">TYPESCRIPT</span>
-                </motion.div>
-
-                {/* 4. Tailwind Box */}
-                <motion.div
-                  variants={logoBoxVariants}
-                  className="h-16 rounded-xl bg-teal-500/5 border border-teal-500/20 flex flex-col items-center justify-center text-teal-500 shadow-sm cursor-default"
-                >
-                  <svg className="w-6 h-6 fill-current text-cyan-400" viewBox="0 0 24 24">
-                    <path d="M12 6.018C13.8 3.582 16.5 2.5 20.1 2.5C21.9 4.3 22 7.1 20.3 10.91C18.5 14.72 15.65 16.91 11.75 17.48C9.95 20.1 7.25 21.018 3.65 21.018C1.85 19.218 1.8 16.218 3.45 12.6C5.1 8.982 7.95 6.792 11.85 6.222C11.9 6.118 11.95 6.068 12 6.018Z" />
+                  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <circle cx="12" cy="12" r="3" />
+                    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
                   </svg>
-                  <span className="text-[7.5px] font-bold mt-1.5 font-mono tracking-wider">TAILWIND</span>
+                  <span className="text-[7.5px] font-bold mt-1 font-mono tracking-wider">RAG</span>
                 </motion.div>
 
-                {/* 5. Node.js Box */}
                 <motion.div
                   variants={logoBoxVariants}
-                  className="h-16 rounded-xl bg-[#339933]/5 border border-[#339933]/20 flex flex-col items-center justify-center text-[#339933] shadow-sm cursor-default"
+                  className="h-16 rounded-xl bg-sky-500/5 border border-sky-400/20 flex flex-col items-center justify-center text-sky-600 shadow-sm cursor-default"
                 >
-                  <span className="font-black text-sm font-sans tracking-tight">Node</span>
-                  <span className="text-[7.5px] font-bold mt-1.5 font-mono tracking-wider font-semibold">NODE.JS</span>
-                </motion.div>
-
-                {/* 6. Vercel Box */}
-                <motion.div
-                  variants={logoBoxVariants}
-                  className="h-16 rounded-xl bg-black border border-neutral-900 flex flex-col items-center justify-center text-white shadow-sm cursor-default"
-                >
-                  <svg className="w-5 h-5 fill-current text-white" viewBox="0 0 24 24">
-                    <path d="M24 22.525H0L12 1.742L24 22.525Z" />
+                  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
                   </svg>
-                  <span className="text-[7.5px] font-bold mt-1.5 font-mono tracking-wider">VERCEL</span>
+                  <span className="text-[7.5px] font-bold mt-1 font-mono tracking-wider">AUTO</span>
+                </motion.div>
+
+                <motion.div
+                  variants={logoBoxVariants}
+                  className="h-16 rounded-xl bg-amber-500/5 border border-amber-400/20 flex flex-col items-center justify-center text-amber-600 shadow-sm cursor-default"
+                >
+                  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M9 12l2 2 4-4" />
+                    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                  </svg>
+                  <span className="text-[7.5px] font-bold mt-1 font-mono tracking-wider">LEAD</span>
+                </motion.div>
+
+                <motion.div
+                  variants={logoBoxVariants}
+                  className="h-16 rounded-xl bg-rose-500/5 border border-rose-400/20 flex flex-col items-center justify-center text-rose-600 shadow-sm cursor-default"
+                >
+                  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span className="text-[7.5px] font-bold mt-1 font-mono tracking-wider">AGENT</span>
+                </motion.div>
+
+                <motion.div
+                  variants={logoBoxVariants}
+                  className="h-16 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-white shadow-sm cursor-default"
+                >
+                  <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                  </svg>
+                  <span className="text-[7.5px] font-bold mt-1 font-mono tracking-wider">API</span>
                 </motion.div>
               </motion.div>
 
-              {/* Bottom labels */}
               <div className="flex gap-4 justify-center text-gray-300 font-mono text-[8px] mt-3">
-                <span>⚙️ NPM CORE</span>
-                <span>⚡ DEPLOY SECURE</span>
+                <span>🤖 OPENAI / CLAUDE</span>
+                <span>⚡ VECTOR SEARCH</span>
               </div>
-
             </div>
           </ServiceCard>
 
-          {/* CARD 3: Custom Template Customization (card-templates class wrapper for GSAP triggering) */}
+          {/* CARD 3: Web Design & Branding */}
           <div className="card-templates flex flex-col">
-            <ServiceCard id="card_template_customization">
+            <ServiceCard id="card_design_branding">
               <div>
                 <h3 className="font-bold text-xl sm:text-2xl text-[#0a0a0a] mb-3 tracking-tight">
-                  Custom Template Customization
+                  Web Design & Branding
                 </h3>
 
                 <p className="text-gray-500 text-xs sm:text-sm leading-relaxed antialiased">
-                  Bought a template but need it{" "}
-                  <Highlight>tailored to your brand</Highlight>? We'll customize
-                  it with your{" "}
-                  <Highlight>colors, content, and features</Highlight> — fast
-                  turnaround, <Highlight>pro-level polish</Highlight>.
+                  From <Highlight>pixel-perfect web design</Highlight> to
+                  complete <Highlight>brand identity systems</Highlight> —
+                  logos, color palettes, typography, and full brand kits that
+                  make your business <Highlight>unforgettable</Highlight>.
                 </p>
 
                 <TagPills
                   tags={[
-                    "React Templates",
-                    "Next.js Themes",
-                    "Brand Styling",
-                    "Component Edits",
-                    "Launch-Ready",
-                    "Fast Delivery",
+                    "Web Design",
+                    "Branding Design",
+                    "Logo Design",
+                    "Brand Kit",
+                    "Typography",
+                    "Color Palette",
                   ]}
                 />
               </div>
 
-              {/* Visual custom performance circles mockup */}
               <div className="flex flex-col gap-4 mt-6 p-4 bg-gray-50 rounded-2xl border border-gray-100">
                 <div className="flex gap-4 justify-center">
-                  <ProgressCircle percentage={98} label="Performance" id="perf" />
-                  <ProgressCircle percentage={99} label="Accessibility" id="access" />
-                  <ProgressCircle percentage={100} label="SEO Score" id="seo" />
+                  <ProgressCircle percentage={98} label="Design" id="design" />
+                  <ProgressCircle percentage={99} label="Branding" id="branding" />
+                  <ProgressCircle percentage={100} label="Consistency" id="consistency" />
                 </div>
 
-                {/* Animated First Contentful Paint Bar */}
                 <div className="mt-2 px-1">
                   <div className="flex justify-between items-center text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-1.5">
-                    <span>First Contentful Paint (FCP)</span>
-                    <span className="text-emerald-500 font-black">0.4s</span>
+                    <span>Brand Recognition Score</span>
+                    <span className="text-violet-500 font-black">+85%</span>
                   </div>
                   <div className="relative w-full h-2.5 bg-gray-200/60 rounded-full overflow-hidden">
-                    <div className="fcp-bar h-full bg-gradient-to-r from-emerald-500 via-emerald-400 to-amber-300 rounded-full" style={{ width: "0%" }} />
-                    <div className="absolute top-1/2 left-[18%] -translate-y-1/2 w-3 h-3 rounded-full border-2 border-white bg-emerald-500 shadow-md" />
+                    <div className="fcp-bar h-full bg-gradient-to-r from-violet-500 via-violet-400 to-fuchsia-300 rounded-full" style={{ width: "0%" }} />
+                    <div className="absolute top-1/2 left-[85%] -translate-y-1/2 w-3 h-3 rounded-full border-2 border-white bg-violet-500 shadow-md" />
                   </div>
                 </div>
               </div>
             </ServiceCard>
           </div>
 
-          {/* CARD 4: SEO & Performance Optimization */}
-          <ServiceCard id="card_seo_optimization">
+          {/* CARD 4: Social Media Marketing & Template Customization */}
+          <ServiceCard id="card_marketing_templates">
             <div>
               <h3 className="font-bold text-xl sm:text-2xl text-[#0a0a0a] mb-3 tracking-tight">
-                Rank Higher. Grow Faster.
+                Social Media & Template Customization
               </h3>
 
               <p className="text-gray-500 text-xs sm:text-sm leading-relaxed antialiased">
-                We combine <Highlight>technical SEO</Highlight> with{" "}
-                <Highlight>Next.js performance best practices</Highlight> that
-                attract, engage, and convert. From{" "}
-                <Highlight>Core Web Vitals</Highlight> to content strategy —
-                your growth is covered.
+                Eye-catching <Highlight>social media marketing images</Highlight>{' '}
+                designed to stop the scroll, plus{" "}
+                <Highlight>template customization</Highlight> to tailor
+                any template to your brand — fast, polished, and launch-ready.
               </p>
 
               <TagPills
                 tags={[
-                  "SEO Audits",
-                  "Core Web Vitals",
-                  "Keyword Research",
-                  "Schema Markup",
-                  "On-Page SEO",
-                  "Performance Reports",
+                  "Social Media Design",
+                  "Marketing Images",
+                  "Template Customization",
+                  "Brand Styling",
+                  "Content Creation",
+                  "Fast Delivery",
                 ]}
               />
             </div>
 
-            {/* Visual Task list / Checklist mockup */}
             <motion.div
               variants={checklistContainerVariants}
               initial="hidden"
@@ -474,19 +444,19 @@ export default function ServicesSection() {
               className="mt-6 flex flex-col gap-2 bg-gray-50/70 p-3 rounded-2xl border border-gray-100/80"
             >
               <motion.div variants={checklistRowVariants}>
-                <ChecklistItem label="Responsive Improvements" status="dim" />
+                <ChecklistItem label="Social Media Image Packs" status="dim" />
               </motion.div>
               <motion.div variants={checklistRowVariants}>
-                <ChecklistItem label="Branding Consistency Checks" status="complete" />
+                <ChecklistItem label="Template Brand Customization" status="complete" />
               </motion.div>
               <motion.div variants={checklistRowVariants}>
-                <ChecklistItem label="Core Web Vitals Audit" status="active" />
+                <ChecklistItem label="Content Calendar Graphics" status="active" />
               </motion.div>
               <motion.div variants={checklistRowVariants}>
-                <ChecklistItem label="Performance Optimization" status="pending" />
+                <ChecklistItem label="Ad Creative Design" status="pending" />
               </motion.div>
               <motion.div variants={checklistRowVariants}>
-                <ChecklistItem label="Weekly Reports & Analysis" status="dim" />
+                <ChecklistItem label="Brand Consistency Checks" status="dim" />
               </motion.div>
             </motion.div>
           </ServiceCard>

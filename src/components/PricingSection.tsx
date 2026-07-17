@@ -7,60 +7,57 @@ import { ArrowRight, Check, HelpCircle, Sparkles } from "lucide-react";
 
 const PLANS = [
   {
-    name: "Essential",
-    badge: "Starter",
-    desc: "A clean, responsive single-page website or landing page — perfect for freelancers, startups, and small projects.",
-    price: "1,200",
+    name: "Starter",
+    badge: "Essential",
+    desc: "Perfect for new businesses — a clean single-page website with template customization and social media visuals to get you online fast.",
+    price: "500",
     unit: "$",
     interval: "project",
     popular: false,
     features: [
-      "Custom React & Next.js development",
-      "Modern UI/UX design tailored to your brand",
-      "1 fully responsive page",
-      "SEO optimization & meta tags",
-      "Contact form integration",
-      "Speed optimization — 90+ Lighthouse",
-      "5-7 day delivery",
-      "7 days post-launch support"
+      "Web design (1 page)",
+      "Template customization",
+      "Social media marketing images (5 designs)",
+      "1 revision round",
+      "7 days delivery",
+      "Basic SEO setup"
     ]
   },
   {
-    name: "Business",
+    name: "Growth",
     badge: "Most Popular",
-    desc: "A full multi-page business website with custom design, CMS, and everything you need to establish your brand online.",
-    price: "2,500",
+    desc: "For growing brands — a multi-page website or rebuild with full branding, web design, and expanded social media content.",
+    price: "900",
     unit: "$",
     interval: "project",
     popular: true,
     features: [
-      "Custom React & Next.js development",
-      "Premium UI/UX design in Figma",
-      "Up to 5 fully responsive pages",
-      "SEO optimization & JSON-LD schema",
-      "Headless CMS integration (Sanity)",
-      "Blog engine & lead capture forms",
-      "2-3 week delivery",
-      "30 days post-launch support"
+      "Website building up to 3 pages OR website rebuild",
+      "Web design (full site)",
+      "Branding design (logo + color palette + fonts)",
+      "Social media marketing images (10 designs)",
+      "Template customization",
+      "2 revision rounds",
+      "14 days delivery"
     ]
   },
   {
-    name: "Premium",
+    name: "Pro",
     badge: "Best Value",
-    desc: "A fully custom web application or multi-page platform with advanced features, animations, and a complete design system.",
-    price: "4,900",
+    desc: "The complete package — a full website, AI chatbot or RAG agent, premium branding, and everything you need to scale.",
+    price: "1,500",
     unit: "$",
     interval: "project",
     popular: false,
     features: [
-      "Bespoke React & Next.js architecture",
-      "Complete custom UI/UX design system",
-      "Unlimited pages & dynamic routes",
-      "Advanced animations & micro-interactions",
-      "Custom API routes & server actions",
-      "Full CMS & dashboard integration",
-      "Comprehensive SEO & Core Web Vitals",
-      "60 days priority support"
+      "Website building up to 5 pages OR website rebuild",
+      "Web design (full site)",
+      "Branding design (full brand kit)",
+      "AI chatbot building OR RAG agent building",
+      "Social media marketing images (15 designs)",
+      "Template customization",
+      "3 revision rounds",
+      "21 days delivery + 30 days support"
     ]
   }
 ];
@@ -102,14 +99,14 @@ export default function PricingSection() {
             Transparent Pricing
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-sans font-black tracking-tight text-gray-950 mt-3 mb-4">
-            Fixed-Price Plans. No Surprises.
+            Fixed Price. Clear Scope. Fast Delivery.
           </h2>
           <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto">
-            Every project is quoted upfront with a locked flat rate. No hourly billing, no hidden fees — just premium engineering delivered on time.
+            Every project is quoted upfront with a locked flat rate. No hourly billing, no hidden fees — from websites and AI chatbots to branding and social media design.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {PLANS.map((plan, idx) => (
             <motion.div
               key={plan.name}
