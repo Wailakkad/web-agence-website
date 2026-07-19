@@ -16,12 +16,11 @@ export const NAV_ITEMS: NavItem[] = [
     ],
   },
   {
-    label: "Templates",
+    label: "Store",
     href: "#templates",
     dropdownItems: [
-      { label: "SaaS Boilerplates", href: "#templates", description: "Complete launchpads for modern startups and apps" },
-      { label: "Agency & Portfolio", href: "#templates", description: "Elegant showcases for creative studios" },
-      { label: "E-Commerce Themes", href: "#templates", description: "Blazing-fast digital storefronts" },
+      { label: "Website Templates", href: "#templates", description: "Premium React & Next.js templates for fast launches" },
+      { label: "AI Mockup Prompts", href: "#templates", description: "AI prompt packs for photorealistic device mockups" },
     ],
   },
   { label: "Pricing", href: "#pricing" },
