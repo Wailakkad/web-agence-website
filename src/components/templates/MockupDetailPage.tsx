@@ -103,11 +103,11 @@ export default function MockupDetailPage({ product }: MockupDetailPageProps) {
                 <div className="space-y-3.5 mb-7">
                   {[
                     "One-time Payment",
-                    "Instant Digital Download",
-                    "500+ Tested Prompts",
+                    "Instant PDF Download",
+                    "23 Ultra-Professional Prompts",
                     "Commercial Use License",
-                    "Free Lifetime Updates",
-                    "Works with All AI Platforms"
+                    "Unlimited Use, Forever",
+                    "Works with Midjourney, GPT Image & Sora"
                   ].map((feature) => (
                     <div key={feature} className="flex items-center gap-3">
                       <div className="w-5 h-5 rounded-full bg-violet-50 border border-violet-100 flex items-center justify-center flex-shrink-0">

@@ -28,27 +28,15 @@ function MockupCard({ product, index }: { product: MockupProduct; index: number 
     >
       {/* Preview Image Area */}
       <div className="relative overflow-hidden bg-slate-50 shrink-0">
-        <div className="w-full h-56 bg-gradient-to-br from-violet-50 via-white to-fuchsia-50 relative flex items-center justify-center">
-          <div className="grid grid-cols-2 gap-2 p-6 w-full h-full">
-            <div className="rounded-lg bg-gradient-to-br from-slate-900 to-zinc-800 flex items-end p-2.5 shadow-md">
-              <span className="text-[7px] text-white/50 font-mono font-bold tracking-wider">LAPTOP</span>
-            </div>
-            <div className="rounded-lg bg-gradient-to-br from-slate-800 to-zinc-900 flex items-end p-2.5 shadow-md">
-              <span className="text-[7px] text-white/50 font-mono font-bold tracking-wider">MOBILE</span>
-            </div>
-            <div className="rounded-lg bg-gradient-to-br from-zinc-100 to-white flex items-end p-2.5 shadow-md border border-gray-200">
-              <span className="text-[7px] text-gray-400 font-mono font-bold tracking-wider">TABLET</span>
-            </div>
-            <div className="rounded-lg bg-gradient-to-br from-stone-800 to-zinc-900 flex items-end p-2.5 shadow-md">
-              <span className="text-[7px] text-white/50 font-mono font-bold tracking-wider">DESKTOP</span>
-            </div>
-          </div>
-
-          <div className="absolute inset-0 bg-black/35 backdrop-blur-xs flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-            <span className="bg-white text-gray-950 font-bold text-xs px-4 py-2.5 rounded-xl shadow-lg">
-              View Details
-            </span>
-          </div>
+        <img
+          src={product.previewImage}
+          alt={product.name}
+          className="w-full block"
+        />
+        <div className="absolute inset-0 bg-black/35 backdrop-blur-xs flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+          <span className="bg-white text-gray-950 font-bold text-xs px-4 py-2.5 rounded-xl shadow-lg">
+            View Details
+          </span>
         </div>
       </div>
 

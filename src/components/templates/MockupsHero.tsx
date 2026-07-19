@@ -36,7 +36,7 @@ export default function MockupsHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.15, duration: 0.7 }}
             >
-              Premium AI prompt packs for generating photorealistic laptop, desktop, mobile, and tablet mockups. Works with Midjourney, DALL·E 3, Stable Diffusion & Leonardo AI. Instant download.
+              23 ultra-professional AI mockup prompts for web designers and agencies. Generate photorealistic laptop, desktop, mobile, and marketing mockups in seconds. Works with Midjourney, GPT Image & Sora Image. Instant PDF download.
             </motion.p>
 
             <motion.div
@@ -79,19 +79,12 @@ export default function MockupsHero() {
 
                 <div className="flex items-center gap-2.5">
                   <Cpu className="w-5 h-5 text-emerald-500" />
-                  <span className="font-bold text-base text-[#0a0a0a] font-sans">DALL·E 3</span>
-                </div>
-
-                <div className="flex items-center gap-2.5">
-                  <div className="w-6 h-6 bg-orange-500 rounded-lg flex items-center justify-center shrink-0">
-                    <span className="text-white font-black text-[9px] font-mono">SD</span>
-                  </div>
-                  <span className="font-bold text-base text-[#0a0a0a] font-sans">Stable Diffusion</span>
+                  <span className="font-bold text-base text-[#0a0a0a] font-sans">GPT Image</span>
                 </div>
 
                 <div className="flex items-center gap-2.5">
                   <Sparkles className="w-5 h-5 text-violet-500" />
-                  <span className="font-bold text-base text-[#0a0a0a] font-sans">Leonardo AI</span>
+                  <span className="font-bold text-base text-[#0a0a0a] font-sans">Sora Image</span>
                 </div>
               </div>
             </motion.div>
