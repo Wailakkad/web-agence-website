@@ -98,24 +98,32 @@ export default function MockupsHero() {
               transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
               className="relative w-full max-w-md"
             >
-              <div className="aspect-[4/3] rounded-3xl overflow-hidden bg-gradient-to-br from-violet-100 via-white to-fuchsia-50 border border-gray-100 shadow-xl p-6 flex flex-col items-center justify-center">
-                <div className="grid grid-cols-2 gap-3 w-full">
-                  <div className="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-900 to-zinc-800 p-3 flex items-end shadow-md">
-                    <span className="text-[8px] text-white/60 font-mono font-bold">LAPTOP</span>
-                  </div>
-                  <div className="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-800 to-zinc-900 p-3 flex items-end shadow-md">
-                    <span className="text-[8px] text-white/60 font-mono font-bold">MOBILE</span>
-                  </div>
-                  <div className="aspect-[4/3] rounded-xl bg-gradient-to-br from-zinc-100 to-white p-3 flex items-end shadow-md border border-gray-200">
-                    <span className="text-[8px] text-gray-400 font-mono font-bold">TABLET</span>
-                  </div>
-                  <div className="aspect-[4/3] rounded-xl bg-gradient-to-br from-stone-800 to-zinc-900 p-3 flex items-end shadow-md">
-                    <span className="text-[8px] text-white/60 font-mono font-bold">DESKTOP</span>
-                  </div>
+              <div className="rounded-3xl overflow-hidden border border-gray-100 shadow-xl">
+                <div className="grid grid-cols-2 gap-0">
+                  <img
+                    src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467631/mockup-image-preview_2.jpg"
+                    alt="Laptop mockup result"
+                    className="w-full aspect-square object-cover"
+                  />
+                  <img
+                    src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467630/mockup-image-preview_1.jpg"
+                    alt="Mobile mockup result"
+                    className="w-full aspect-square object-cover"
+                  />
+                  <img
+                    src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467630/mockup-image-preview_5.jpg"
+                    alt="Marketing mockup result"
+                    className="w-full aspect-square object-cover"
+                  />
+                  <img
+                    src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467628/mockup-image-preview_4.jpg"
+                    alt="Case study mockup result"
+                    className="w-full aspect-square object-cover"
+                  />
                 </div>
-                <div className="mt-4 text-center">
-                  <span className="text-[10px] font-mono font-bold text-violet-600 bg-violet-50 px-3 py-1 rounded-full border border-violet-100">
-                    AI Prompt • Instant Download
+                <div className="py-3 text-center bg-white/95 backdrop-blur-sm border-t border-gray-100">
+                  <span className="text-[10px] font-mono font-bold text-violet-600">
+                    AI Prompt Results • Real Generations
                   </span>
                 </div>
               </div>

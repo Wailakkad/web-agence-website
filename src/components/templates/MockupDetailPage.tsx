@@ -1,7 +1,7 @@
-import { useEffect, MouseEvent } from "react";
-import { motion } from "motion/react";
+import { useEffect, useState, MouseEvent } from "react";
+import { motion, AnimatePresence } from "motion/react";
 import { MockupProduct, mockupProducts } from "../../lib/mockupsData";
-import { ArrowUpLeft, ArrowUpRight, Check, Sparkles, ShoppingCart, Smartphone, Monitor, Tablet, Laptop } from "lucide-react";
+import { ArrowUpLeft, ArrowUpRight, Check, Sparkles, ShoppingCart, Smartphone, Monitor, Tablet, Laptop, X } from "lucide-react";
 
 interface MockupDetailPageProps {
   product: MockupProduct;
@@ -17,9 +17,20 @@ const deviceIconMap: Record<string, React.ReactNode> = {
 };
 
 export default function MockupDetailPage({ product }: MockupDetailPageProps) {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" as any });
   }, [product.id]);
+
+  useEffect(() => {
+    if (!selectedImage) return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSelectedImage(null);
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [selectedImage]);
 
   const navigateBack = (e: MouseEvent) => {
     e.preventDefault();
@@ -212,6 +223,44 @@ export default function MockupDetailPage({ product }: MockupDetailPageProps) {
         </div>
       </section>
 
+      {/* PROMPT RESULTS GALLERY */}
+      <section className="py-16 px-6 md:px-12 lg:px-20 bg-gray-50/30 border-b border-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-black text-2xl md:text-3xl text-[#0a0a0a] tracking-tight mb-3 text-center">AI Prompt Results Gallery</h2>
+          <p className="text-gray-400 text-xs text-center mb-10 font-mono uppercase tracking-wider font-semibold">
+            Real outputs from the prompt pack — upload your UI and get the same quality
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {product.mockupImages.map((image, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1, duration: 0.5 }}
+                className="rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-xs group cursor-pointer"
+                onClick={() => setSelectedImage(image.src!)}
+              >
+                <div className="relative">
+                  <img
+                    src={image.src}
+                    alt={image.pageTitle}
+                    className="w-full block group-hover:scale-[1.02] transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
+                </div>
+                <div className="px-5 py-4">
+                  <p className="font-bold text-sm text-[#0a0a0a]">{image.pageTitle}</p>
+                  <p className="text-[10px] font-mono font-semibold text-violet-600 uppercase tracking-wider mt-0.5">
+                    AI Generated Mockup
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* RELATED PRODUCTS */}
       <section className="py-16 px-6 md:px-12 lg:px-20 bg-gray-50/30">
         <div className="max-w-6xl mx-auto">
@@ -241,6 +290,38 @@ export default function MockupDetailPage({ product }: MockupDetailPageProps) {
           </div>
         </div>
       </section>
+
+      {/* LIGHTBOX POPUP */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 md:p-8"
+            onClick={() => setSelectedImage(null)}
+          >
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors cursor-pointer"
+            >
+              <X className="w-5 h-5 text-white" />
+            </button>
+            <motion.img
+              key={selectedImage}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              transition={{ duration: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
+              src={selectedImage}
+              alt="Mockup preview"
+              className="max-w-full max-h-full w-auto h-auto object-contain rounded-2xl shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

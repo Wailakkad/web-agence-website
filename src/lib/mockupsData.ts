@@ -61,9 +61,10 @@ export const mockupProducts: MockupProduct[] = [
       }
     ],
     mockupImages: [
-      { gradient: "from-slate-900 to-zinc-800", pageTitle: "Laptop & Desktop Mockups" },
-      { gradient: "from-zinc-100 to-white", pageTitle: "Mobile Device Mockups" },
-      { gradient: "from-violet-900 to-zinc-900", pageTitle: "Marketing & Branding Images" }
+      { gradient: "from-slate-900 to-zinc-800", pageTitle: "Laptop & Desktop Mockups", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467631/mockup-image-preview_2.jpg" },
+      { gradient: "from-zinc-100 to-white", pageTitle: "Mobile Device Mockups", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467630/mockup-image-preview_1.jpg" },
+      { gradient: "from-violet-900 to-zinc-900", pageTitle: "Marketing & Branding Images", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467630/mockup-image-preview_5.jpg" },
+      { gradient: "from-stone-900 to-zinc-800", pageTitle: "Case Study Cover Shots", src: "https://res.cloudinary.com/dhkyla1rv/image/upload/v1784467628/mockup-image-preview_4.jpg" }
     ]
   }
 ];
